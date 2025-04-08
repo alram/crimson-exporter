@@ -641,7 +641,7 @@ func (c *CrimsonCollector) getAdminStats() ([]CrimsonData, error) {
 			// We wanna transform the dumpmetrics map[string]any into something more consumable
 			var crimsonMetric CrimsonData
 			crimsonMetric.OSDID = osdID
-			crimsonMetric.NumShards = 4
+			numShards := 0
 			crimsonMetric.Name = make(map[string][]struct {
 				Shard       string
 				Value       any
@@ -651,6 +651,10 @@ func (c *CrimsonCollector) getAdminStats() ([]CrimsonData, error) {
 			for _, m := range metric.Metrics.([]any) {
 				for k := range maps.Keys(m.(map[string]any)) {
 					shard := m.(map[string]any)[k].(map[string]any)["shard"].(string)
+					shardNum, _ := strconv.Atoi(shard)
+					if shardNum > numShards {
+						numShards = shardNum
+					}
 					val := m.(map[string]any)[k].(map[string]any)["value"]
 					extraLabelValues := make(map[string]string)
 					extraLabels := []string{
@@ -677,7 +681,8 @@ func (c *CrimsonCollector) getAdminStats() ([]CrimsonData, error) {
 					})
 				}
 			}
-
+			crimsonMetric.NumShards = numShards + 1
+			
 			lock.Lock()
 			metrics = append(metrics, crimsonMetric)
 			lock.Unlock()
