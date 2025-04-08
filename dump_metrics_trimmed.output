@@ -1,0 +1,6448 @@
+{
+    "metrics": [
+        {
+            "LBA_alloc_extents": {
+                "shard": "0",
+                "value": 52830
+            }
+        },
+        {
+            "LBA_alloc_extents_iter_nexts": {
+                "shard": "0",
+                "value": 54463
+            }
+        },
+        {
+            "alien_receive_batch_queue_length": {
+                "shard": "0",
+                "value": 0
+            }
+        },
+        {
+            "alien_total_received_messages": {
+                "shard": "0",
+                "value": 0
+            }
+        },
+        {
+            "alien_total_sent_messages": {
+                "shard": "0",
+                "value": 0
+            }
+        },
+        {
+            "background_process_io_blocked_count": {
+                "shard": "0",
+                "value": 0
+            }
+        },
+        {
+            "background_process_io_blocked_count_clean": {
+                "shard": "0",
+                "value": 0
+            }
+        },
+        {
+            "background_process_io_blocked_count_trim": {
+                "shard": "0",
+                "value": 0
+            }
+        },
+        {
+            "background_process_io_blocked_sum": {
+                "shard": "0",
+                "value": 0
+            }
+        },
+        {
+            "background_process_io_count": {
+                "shard": "0",
+                "value": 12940
+            }
+        },
+        {
+            "io_queue_activations": {
+                "class": "main",
+                "iogroup": "0",
+                "mountpoint": "none",
+                "shard": "0",
+                "stream": "rw",
+                "value": 47222
+            }
+        },
+        {
+            "io_queue_adjusted_consumption": {
+                "class": "main",
+                "iogroup": "0",
+                "mountpoint": "none",
+                "shard": "0",
+                "stream": "rw",
+                "value": 0.0063611656427383419
+            }
+        },
+        {
+            "io_queue_consumption": {
+                "class": "main",
+                "iogroup": "0",
+                "mountpoint": "none",
+                "shard": "0",
+                "stream": "rw",
+                "value": 6.3611671231389044
+            }
+        },
+        {
+            "io_queue_delay": {
+                "class": "main",
+                "iogroup": "0",
+                "mountpoint": "none",
+                "shard": "0",
+                "value": 5.5600000000000001e-06
+            }
+        },
+        {
+            "io_queue_disk_queue_length": {
+                "class": "main",
+                "iogroup": "0",
+                "mountpoint": "none",
+                "shard": "0",
+                "value": 0
+            }
+        },
+        {
+            "io_queue_flow_ratio": {
+                "iogroup": "0",
+                "mountpoint": "none",
+                "shard": "0",
+                "value": 0.99648430159141921
+            }
+        },
+        {
+            "io_queue_queue_length": {
+                "class": "main",
+                "iogroup": "0",
+                "mountpoint": "none",
+                "shard": "0",
+                "value": 0
+            }
+        },
+        {
+            "io_queue_shares": {
+                "class": "main",
+                "iogroup": "0",
+                "mountpoint": "none",
+                "shard": "0",
+                "value": 1000
+            }
+        },
+        {
+            "io_queue_starvation_time_sec": {
+                "class": "main",
+                "iogroup": "0",
+                "mountpoint": "none",
+                "shard": "0",
+                "value": 4.7537128559999795
+            }
+        },
+        {
+            "io_queue_total_bytes": {
+                "class": "main",
+                "iogroup": "0",
+                "mountpoint": "none",
+                "shard": "0",
+                "value": 54613757952
+            }
+        },
+        {
+            "io_queue_total_delay_sec": {
+                "class": "main",
+                "iogroup": "0",
+                "mountpoint": "none",
+                "shard": "0",
+                "value": 5.213240561000001
+            }
+        },
+        {
+            "io_queue_total_exec_sec": {
+                "class": "main",
+                "iogroup": "0",
+                "mountpoint": "none",
+                "shard": "0",
+                "value": 31.145903450000063
+            }
+        },
+        {
+            "io_queue_total_operations": {
+                "class": "main",
+                "iogroup": "0",
+                "mountpoint": "none",
+                "shard": "0",
+                "value": 47995
+            }
+        },
+        {
+            "io_queue_total_read_bytes": {
+                "class": "main",
+                "iogroup": "0",
+                "mountpoint": "none",
+                "shard": "0",
+                "value": 65773568
+            }
+        },
+        {
+            "io_queue_total_read_ops": {
+                "class": "main",
+                "iogroup": "0",
+                "mountpoint": "none",
+                "shard": "0",
+                "value": 5798
+            }
+        },
+        {
+            "io_queue_total_split_bytes": {
+                "class": "main",
+                "iogroup": "0",
+                "mountpoint": "none",
+                "shard": "0",
+                "value": 0
+            }
+        },
+        {
+            "io_queue_total_split_ops": {
+                "class": "main",
+                "iogroup": "0",
+                "mountpoint": "none",
+                "shard": "0",
+                "value": 0
+            }
+        },
+        {
+            "io_queue_total_write_bytes": {
+                "class": "main",
+                "iogroup": "0",
+                "mountpoint": "none",
+                "shard": "0",
+                "value": 54547984384
+            }
+        },
+        {
+            "io_queue_total_write_ops": {
+                "class": "main",
+                "iogroup": "0",
+                "mountpoint": "none",
+                "shard": "0",
+                "value": 42197
+            }
+        },
+        {
+            "journal_io_depth_num": {
+                "shard": "0",
+                "submitter": "Dev(0x0)_DATA_G2",
+                "value": 13257
+            }
+        },
+        {
+            "journal_io_depth_num": {
+                "shard": "0",
+                "submitter": "Dev(0x0)_DATA_G3",
+                "value": 0
+            }
+        },
+        {
+            "journal_io_depth_num": {
+                "shard": "0",
+                "submitter": "Dev(0x0)_DATA_G4",
+                "value": 0
+            }
+        },
+        {
+            "journal_io_depth_num": {
+                "shard": "0",
+                "submitter": "Dev(0x0)_MD_G1",
+                "value": 26497
+            }
+        },
+        {
+            "journal_io_depth_num": {
+                "shard": "0",
+                "submitter": "Dev(0x0)_MD_G2",
+                "value": 0
+            }
+        },
+        {
+            "journal_io_depth_num": {
+                "shard": "0",
+                "submitter": "Dev(0x0)_MD_G3",
+                "value": 0
+            }
+        },
+        {
+            "journal_io_depth_num": {
+                "shard": "0",
+                "submitter": "Dev(0x0)_MD_G4",
+                "value": 0
+            }
+        },
+        {
+            "journal_io_num": {
+                "shard": "0",
+                "submitter": "Dev(0x0)_DATA_G2",
+                "value": 12772
+            }
+        },
+        {
+            "journal_io_num": {
+                "shard": "0",
+                "submitter": "Dev(0x0)_DATA_G3",
+                "value": 0
+            }
+        },
+        {
+            "journal_io_num": {
+                "shard": "0",
+                "submitter": "Dev(0x0)_DATA_G4",
+                "value": 0
+            }
+        },
+        {
+            "journal_io_num": {
+                "shard": "0",
+                "submitter": "Dev(0x0)_MD_G1",
+                "value": 25953
+            }
+        },
+        {
+            "journal_io_num": {
+                "shard": "0",
+                "submitter": "Dev(0x0)_MD_G2",
+                "value": 0
+            }
+        },
+        {
+            "journal_io_num": {
+                "shard": "0",
+                "submitter": "Dev(0x0)_MD_G3",
+                "value": 0
+            }
+        },
+        {
+            "journal_io_num": {
+                "shard": "0",
+                "submitter": "Dev(0x0)_MD_G4",
+                "value": 0
+            }
+        },
+        {
+            "journal_record_group_data_bytes": {
+                "shard": "0",
+                "submitter": "Dev(0x0)_DATA_G2",
+                "value": 53495078912
+            }
+        },
+        {
+            "journal_record_group_data_bytes": {
+                "shard": "0",
+                "submitter": "Dev(0x0)_DATA_G3",
+                "value": 0
+            }
+        },
+        {
+            "journal_record_group_data_bytes": {
+                "shard": "0",
+                "submitter": "Dev(0x0)_DATA_G4",
+                "value": 0
+            }
+        },
+        {
+            "journal_record_group_data_bytes": {
+                "shard": "0",
+                "submitter": "Dev(0x0)_MD_G1",
+                "value": 882548736
+            }
+        },
+        {
+            "journal_record_group_data_bytes": {
+                "shard": "0",
+                "submitter": "Dev(0x0)_MD_G2",
+                "value": 0
+            }
+        },
+        {
+            "journal_record_group_data_bytes": {
+                "shard": "0",
+                "submitter": "Dev(0x0)_MD_G3",
+                "value": 0
+            }
+        },
+        {
+            "journal_record_group_data_bytes": {
+                "shard": "0",
+                "submitter": "Dev(0x0)_MD_G4",
+                "value": 0
+            }
+        },
+        {
+            "journal_record_group_metadata_bytes": {
+                "shard": "0",
+                "submitter": "Dev(0x0)_DATA_G2",
+                "value": 0
+            }
+        },
+        {
+            "journal_record_group_metadata_bytes": {
+                "shard": "0",
+                "submitter": "Dev(0x0)_DATA_G3",
+                "value": 0
+            }
+        },
+        {
+            "journal_record_group_metadata_bytes": {
+                "shard": "0",
+                "submitter": "Dev(0x0)_DATA_G4",
+                "value": 0
+            }
+        },
+        {
+            "journal_record_group_metadata_bytes": {
+                "shard": "0",
+                "submitter": "Dev(0x0)_MD_G1",
+                "value": 27240753
+            }
+        },
+        {
+            "journal_record_group_metadata_bytes": {
+                "shard": "0",
+                "submitter": "Dev(0x0)_MD_G2",
+                "value": 0
+            }
+        },
+        {
+            "journal_record_group_metadata_bytes": {
+                "shard": "0",
+                "submitter": "Dev(0x0)_MD_G3",
+                "value": 0
+            }
+        },
+        {
+            "journal_record_group_metadata_bytes": {
+                "shard": "0",
+                "submitter": "Dev(0x0)_MD_G4",
+                "value": 0
+            }
+        },
+        {
+            "journal_record_group_padding_bytes": {
+                "shard": "0",
+                "submitter": "Dev(0x0)_DATA_G2",
+                "value": 0
+            }
+        },
+        {
+            "journal_record_group_padding_bytes": {
+                "shard": "0",
+                "submitter": "Dev(0x0)_DATA_G3",
+                "value": 0
+            }
+        },
+        {
+            "journal_record_group_padding_bytes": {
+                "shard": "0",
+                "submitter": "Dev(0x0)_DATA_G4",
+                "value": 0
+            }
+        },
+        {
+            "journal_record_group_padding_bytes": {
+                "shard": "0",
+                "submitter": "Dev(0x0)_MD_G1",
+                "value": 79120079
+            }
+        },
+        {
+            "journal_record_group_padding_bytes": {
+                "shard": "0",
+                "submitter": "Dev(0x0)_MD_G2",
+                "value": 0
+            }
+        },
+        {
+            "journal_record_group_padding_bytes": {
+                "shard": "0",
+                "submitter": "Dev(0x0)_MD_G3",
+                "value": 0
+            }
+        },
+        {
+            "journal_record_group_padding_bytes": {
+                "shard": "0",
+                "submitter": "Dev(0x0)_MD_G4",
+                "value": 0
+            }
+        },
+        {
+            "journal_record_num": {
+                "shard": "0",
+                "submitter": "Dev(0x0)_DATA_G2",
+                "value": 12772
+            }
+        },
+        {
+            "journal_record_num": {
+                "shard": "0",
+                "submitter": "Dev(0x0)_DATA_G3",
+                "value": 0
+            }
+        },
+        {
+            "journal_record_num": {
+                "shard": "0",
+                "submitter": "Dev(0x0)_DATA_G4",
+                "value": 0
+            }
+        },
+        {
+            "journal_record_num": {
+                "shard": "0",
+                "submitter": "Dev(0x0)_MD_G1",
+                "value": 26070
+            }
+        },
+        {
+            "journal_record_num": {
+                "shard": "0",
+                "submitter": "Dev(0x0)_MD_G2",
+                "value": 0
+            }
+        },
+        {
+            "journal_record_num": {
+                "shard": "0",
+                "submitter": "Dev(0x0)_MD_G3",
+                "value": 0
+            }
+        },
+        {
+            "journal_record_num": {
+                "shard": "0",
+                "submitter": "Dev(0x0)_MD_G4",
+                "value": 0
+            }
+        },
+        {
+            "journal_trimmer_alloc_journal_bytes": {
+                "shard": "0",
+                "value": 134164480
+            }
+        },
+        {
+            "journal_trimmer_dirty_journal_bytes": {
+                "shard": "0",
+                "value": 133943296
+            }
+        },
+        {
+            "memory_allocated_memory": {
+                "shard": "0",
+                "value": 1345429504
+            }
+        },
+        {
+            "memory_cross_cpu_free_operations": {
+                "shard": "0",
+                "value": 754490
+            }
+        },
+        {
+            "memory_free_memory": {
+                "shard": "0",
+                "value": 67374047232
+            }
+        },
+        {
+            "memory_free_operations": {
+                "shard": "0",
+                "value": 32199262
+            }
+        },
+        {
+            "memory_malloc_failed": {
+                "shard": "0",
+                "value": 0
+            }
+        },
+        {
+            "memory_malloc_live_objects": {
+                "shard": "0",
+                "value": 160371
+            }
+        },
+        {
+            "memory_malloc_operations": {
+                "shard": "0",
+                "value": 32359633
+            }
+        },
+        {
+            "memory_reclaims_operations": {
+                "shard": "0",
+                "value": 0
+            }
+        },
+        {
+            "memory_total_memory": {
+                "shard": "0",
+                "value": 68719476736
+            }
+        },
+        {
+            "network_bytes_received": {
+                "group": "atexit",
+                "shard": "0",
+                "value": 0
+            }
+        },
+        {
+            "network_bytes_received": {
+                "group": "main",
+                "shard": "0",
+                "value": 127147383289
+            }
+        },
+        {
+            "network_bytes_sent": {
+                "group": "atexit",
+                "shard": "0",
+                "value": 0
+            }
+        },
+        {
+            "network_bytes_sent": {
+                "group": "main",
+                "shard": "0",
+                "value": 124049734568
+            }
+        },
+        {
+            "reactor_abandoned_failed_futures": {
+                "shard": "0",
+                "value": 0
+            }
+        },
+        {
+            "reactor_aio_bytes_read": {
+                "shard": "0",
+                "value": 65773568
+            }
+        },
+        {
+            "reactor_aio_bytes_write": {
+                "shard": "0",
+                "value": 54547984384
+            }
+        },
+        {
+            "reactor_aio_errors": {
+                "shard": "0",
+                "value": 0
+            }
+        },
+        {
+            "reactor_aio_outsizes": {
+                "shard": "0",
+                "value": 0
+            }
+        },
+        {
+            "reactor_aio_reads": {
+                "shard": "0",
+                "value": 5798
+            }
+        },
+        {
+            "reactor_aio_writes": {
+                "shard": "0",
+                "value": 42197
+            }
+        },
+        {
+            "reactor_awake_time_ms_total": {
+                "shard": "0",
+                "value": 396911
+            }
+        },
+        {
+            "reactor_cpp_exceptions": {
+                "shard": "0",
+                "value": 4531
+            }
+        },
+        {
+            "reactor_cpu_busy_ms": {
+                "shard": "0",
+                "value": 292153
+            }
+        },
+        {
+            "reactor_cpu_steal_time_ms": {
+                "shard": "0",
+                "value": 11548
+            }
+        },
+        {
+            "reactor_cpu_used_time_ms": {
+                "shard": "0",
+                "value": 385363
+            }
+        },
+        {
+            "reactor_fstream_read_bytes": {
+                "shard": "0",
+                "value": 24576
+            }
+        },
+        {
+            "reactor_fstream_read_bytes_blocked": {
+                "shard": "0",
+                "value": 24576
+            }
+        },
+        {
+            "reactor_fstream_reads": {
+                "shard": "0",
+                "value": 3
+            }
+        },
+        {
+            "reactor_fstream_reads_ahead_bytes_discarded": {
+                "shard": "0",
+                "value": 0
+            }
+        },
+        {
+            "reactor_fstream_reads_aheads_discarded": {
+                "shard": "0",
+                "value": 0
+            }
+        },
+        {
+            "reactor_fstream_reads_blocked": {
+                "shard": "0",
+                "value": 3
+            }
+        },
+        {
+            "reactor_fsyncs": {
+                "shard": "0",
+                "value": 1
+            }
+        },
+        {
+            "reactor_io_threaded_fallbacks": {
+                "shard": "0",
+                "value": 17
+            }
+        },
+        {
+            "reactor_logging_failures": {
+                "shard": "0",
+                "value": 0
+            }
+        },
+        {
+            "reactor_polls": {
+                "shard": "0",
+                "value": 273828565
+            }
+        },
+        {
+            "reactor_sleep_time_ms_total": {
+                "shard": "0",
+                "value": 2630214
+            }
+        },
+        {
+            "reactor_stalls": {
+                "shard": "0",
+                "value": {
+                    "sum": 163340800,
+                    "count": 55171,
+                    "buckets": [
+                        {
+                            "le": 640,
+                            "count": 0
+                        },
+                        {
+                            "le": 768,
+                            "count": 0
+                        },
+                        {
+                            "le": 896,
+                            "count": 0
+                        },
+                        {
+                            "le": 1024,
+                            "count": 847
+                        },
+                        {
+                            "le": 1280,
+                            "count": 8600
+                        },
+                        {
+                            "le": 1536,
+                            "count": 15398
+                        },
+                        {
+                            "le": 1792,
+                            "count": 21695
+                        },
+                        {
+                            "le": 2048,
+                            "count": 27075
+                        },
+                        {
+                            "le": 2560,
+                            "count": 34891
+                        },
+                        {
+                            "le": 3072,
+                            "count": 40164
+                        },
+                        {
+                            "le": 3584,
+                            "count": 44071
+                        },
+                        {
+                            "le": 4096,
+                            "count": 46963
+                        },
+                        {
+                            "le": 5120,
+                            "count": 50376
+                        },
+                        {
+                            "le": 6144,
+                            "count": 52328
+                        },
+                        {
+                            "le": 7168,
+                            "count": 53381
+                        },
+                        {
+                            "le": 8192,
+                            "count": 53998
+                        },
+                        {
+                            "le": 10240,
+                            "count": 54639
+                        },
+                        {
+                            "le": 12288,
+                            "count": 54953
+                        },
+                        {
+                            "le": 14336,
+                            "count": 55074
+                        },
+                        {
+                            "le": 16384,
+                            "count": 55119
+                        },
+                        {
+                            "le": 20480,
+                            "count": 55156
+                        },
+                        {
+                            "le": 24576,
+                            "count": 55160
+                        },
+                        {
+                            "le": 28672,
+                            "count": 55161
+                        },
+                        {
+                            "le": 32768,
+                            "count": 55161
+                        },
+                        {
+                            "le": 40960,
+                            "count": 55163
+                        },
+                        {
+                            "le": 49152,
+                            "count": 55164
+                        },
+                        {
+                            "le": 57344,
+                            "count": 55164
+                        },
+                        {
+                            "le": 65536,
+                            "count": 55165
+                        },
+                        {
+                            "le": 81920,
+                            "count": 55165
+                        },
+                        {
+                            "le": 98304,
+                            "count": 55165
+                        },
+                        {
+                            "le": 114688,
+                            "count": 55165
+                        },
+                        {
+                            "le": 131072,
+                            "count": 55165
+                        },
+                        {
+                            "le": 163840,
+                            "count": 55167
+                        },
+                        {
+                            "le": 196608,
+                            "count": 55167
+                        },
+                        {
+                            "le": 229376,
+                            "count": 55169
+                        },
+                        {
+                            "le": 262144,
+                            "count": 55169
+                        },
+                        {
+                            "le": 327680,
+                            "count": 55169
+                        },
+                        {
+                            "le": 393216,
+                            "count": 55170
+                        },
+                        {
+                            "le": 458752,
+                            "count": 55170
+                        },
+                        {
+                            "le": 524288,
+                            "count": 55171
+                        },
+                        {
+                            "le": 655360,
+                            "count": 55171
+                        },
+                        {
+                            "le": 786432,
+                            "count": 55171
+                        },
+                        {
+                            "le": 917504,
+                            "count": 55171
+                        },
+                        {
+                            "le": 1048576,
+                            "count": 55171
+                        },
+                        {
+                            "le": 1310720,
+                            "count": 55171
+                        },
+                        {
+                            "le": 1572864,
+                            "count": 55171
+                        },
+                        {
+                            "le": 1835008,
+                            "count": 55171
+                        },
+                        {
+                            "le": 2097152,
+                            "count": 55171
+                        },
+                        {
+                            "le": 2621440,
+                            "count": 55171
+                        },
+                        {
+                            "le": 3145728,
+                            "count": 55171
+                        },
+                        {
+                            "le": 3670016,
+                            "count": 55171
+                        },
+                        {
+                            "le": 4194304,
+                            "count": 55171
+                        },
+                        {
+                            "le": 5242880,
+                            "count": 55171
+                        },
+                        {
+                            "le": 6291456,
+                            "count": 55171
+                        },
+                        {
+                            "le": 7340032,
+                            "count": 55171
+                        },
+                        {
+                            "le": 8388608,
+                            "count": 55171
+                        },
+                        {
+                            "le": 10485760,
+                            "count": 55171
+                        },
+                        {
+                            "le": 12582912,
+                            "count": 55171
+                        },
+                        {
+                            "le": 14680064,
+                            "count": 55171
+                        },
+                        {
+                            "le": 16777216,
+                            "count": 55171
+                        },
+                        {
+                            "le": 20971520,
+                            "count": 55171
+                        },
+                        {
+                            "le": 25165824,
+                            "count": 55171
+                        },
+                        {
+                            "le": 29360128,
+                            "count": 55171
+                        },
+                        {
+                            "le": 33554432,
+                            "count": 55171
+                        },
+                        {
+                            "le": "+Inf",
+                            "count": 55171
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "reactor_tasks_pending": {
+                "shard": "0",
+                "value": 0
+            }
+        },
+        {
+            "reactor_tasks_processed": {
+                "shard": "0",
+                "value": 7154893
+            }
+        },
+        {
+            "reactor_timers_pending": {
+                "shard": "0",
+                "value": 0
+            }
+        },
+        {
+            "reactor_utilization": {
+                "shard": "0",
+                "value": 24.016458360000335
+            }
+        },
+        {
+            "scheduler_queue_length": {
+                "group": "atexit",
+                "shard": "0",
+                "value": 0
+            }
+        },
+        {
+            "scheduler_queue_length": {
+                "group": "main",
+                "shard": "0",
+                "value": 0
+            }
+        },
+        {
+            "scheduler_runtime_ms": {
+                "group": "atexit",
+                "shard": "0",
+                "value": 0
+            }
+        },
+        {
+            "scheduler_runtime_ms": {
+                "group": "main",
+                "shard": "0",
+                "value": 278128
+            }
+        },
+        {
+            "scheduler_shares": {
+                "group": "atexit",
+                "shard": "0",
+                "value": 1000
+            }
+        },
+        {
+            "scheduler_shares": {
+                "group": "main",
+                "shard": "0",
+                "value": 1000
+            }
+        },
+        {
+            "scheduler_starvetime_ms": {
+                "group": "atexit",
+                "shard": "0",
+                "value": 0
+            }
+        },
+        {
+            "scheduler_starvetime_ms": {
+                "group": "main",
+                "shard": "0",
+                "value": 4729
+            }
+        },
+        {
+            "scheduler_tasks_processed": {
+                "group": "atexit",
+                "shard": "0",
+                "value": 0
+            }
+        },
+        {
+            "scheduler_tasks_processed": {
+                "group": "main",
+                "shard": "0",
+                "value": 7154893
+            }
+        },
+        {
+            "scheduler_time_spent_on_task_quota_violations_ms": {
+                "group": "atexit",
+                "shard": "0",
+                "value": 0
+            }
+        },
+        {
+            "scheduler_time_spent_on_task_quota_violations_ms": {
+                "group": "main",
+                "shard": "0",
+                "value": 121346
+            }
+        },
+        {
+            "scheduler_waittime_ms": {
+                "group": "atexit",
+                "shard": "0",
+                "value": 0
+            }
+        },
+        {
+            "scheduler_waittime_ms": {
+                "group": "main",
+                "shard": "0",
+                "value": 2744262
+            }
+        },
+        {
+            "seastore_concurrent_transactions": {
+                "shard": "0",
+                "value": 0
+            }
+        },
+        {
+            "seastore_op_lat": {
+                "latency": "DO_TRANSACTION",
+                "shard": "0",
+                "value": {
+                    "sum": 112887,
+                    "count": 12829,
+                    "buckets": [
+                        {
+                            "le": "+Inf",
+                            "count": 12829
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "seastore_op_lat": {
+                "latency": "GET_ATTR",
+                "shard": "0",
+                "value": {
+                    "sum": 0,
+                    "count": 0,
+                    "buckets": [
+                        {
+                            "le": "+Inf",
+                            "count": 0
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "seastore_op_lat": {
+                "latency": "GET_ATTRS",
+                "shard": "0",
+                "value": {
+                    "sum": 0,
+                    "count": 0,
+                    "buckets": [
+                        {
+                            "le": "+Inf",
+                            "count": 0
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "seastore_op_lat": {
+                "latency": "OMAP_GET_VALUES",
+                "shard": "0",
+                "value": {
+                    "sum": 0,
+                    "count": 0,
+                    "buckets": [
+                        {
+                            "le": "+Inf",
+                            "count": 0
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "seastore_op_lat": {
+                "latency": "OMAP_GET_VALUES2",
+                "shard": "0",
+                "value": {
+                    "sum": 0,
+                    "count": 0,
+                    "buckets": [
+                        {
+                            "le": "+Inf",
+                            "count": 0
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "seastore_op_lat": {
+                "latency": "READ",
+                "shard": "0",
+                "value": {
+                    "sum": 0,
+                    "count": 42,
+                    "buckets": [
+                        {
+                            "le": "+Inf",
+                            "count": 42
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "seastore_op_lat": {
+                "latency": "STAT",
+                "shard": "0",
+                "value": {
+                    "sum": 0,
+                    "count": 0,
+                    "buckets": [
+                        {
+                            "le": "+Inf",
+                            "count": 0
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "seastore_op_lat": {
+                "latency": "WRITE",
+                "shard": "0",
+                "value": {
+                    "sum": 0,
+                    "count": 0,
+                    "buckets": [
+                        {
+                            "le": "+Inf",
+                            "count": 0
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "seastore_pending_transactions": {
+                "shard": "0",
+                "value": 0
+            }
+        },
+        {
+            "segment_cleaner_available_bytes": {
+                "shard": "0",
+                "value": 1939983564800
+            }
+        },
+        {
+            "segment_cleaner_available_ratio": {
+                "shard": "0",
+                "value": 0.96980702537909291
+            }
+        },
+        {
+            "segment_cleaner_closed_journal_total_bytes": {
+                "shard": "0",
+                "value": 939524096
+            }
+        },
+        {
+            "segment_cleaner_closed_journal_used_bytes": {
+                "shard": "0",
+                "value": 836517888
+            }
+        },
+        {
+            "segment_cleaner_closed_ool_total_bytes": {
+                "shard": "0",
+                "value": 57042534400
+            }
+        },
+        {
+            "segment_cleaner_closed_ool_used_bytes": {
+                "shard": "0",
+                "value": 52928778240
+            }
+        },
+        {
+            "segment_cleaner_projected_count": {
+                "shard": "0",
+                "value": 23980
+            }
+        },
+        {
+            "segment_cleaner_projected_used_bytes_sum": {
+                "shard": "0",
+                "value": 254507708416
+            }
+        },
+        {
+            "segment_cleaner_reclaim_ratio": {
+                "shard": "0",
+                "value": 0.10703082275019749
+            }
+        },
+        {
+            "segment_cleaner_reclaimed_bytes": {
+                "shard": "0",
+                "value": 0
+            }
+        },
+        {
+            "segment_cleaner_reclaimed_segment_bytes": {
+                "shard": "0",
+                "value": 0
+            }
+        },
+        {
+            "segment_cleaner_segment_size": {
+                "shard": "0",
+                "value": 67108864
+            }
+        },
+        {
+            "segment_cleaner_segment_utilization_distribution": {
+                "shard": "0",
+                "value": {
+                    "sum": 0,
+                    "count": 0,
+                    "buckets": [
+                        {
+                            "le": 0.10000000000000001,
+                            "count": 34
+                        },
+                        {
+                            "le": 0.20000000000000001,
+                            "count": 1
+                        },
+                        {
+                            "le": 0.29999999999999999,
+                            "count": 0
+                        },
+                        {
+                            "le": 0.40000000000000002,
+                            "count": 0
+                        },
+                        {
+                            "le": 0.5,
+                            "count": 0
+                        },
+                        {
+                            "le": 0.59999999999999998,
+                            "count": 0
+                        },
+                        {
+                            "le": 0.69999999999999996,
+                            "count": 0
+                        },
+                        {
+                            "le": 0.80000000000000004,
+                            "count": 3
+                        },
+                        {
+                            "le": 0.90000000000000002,
+                            "count": 94
+                        },
+                        {
+                            "le": 1,
+                            "count": 767
+                        },
+                        {
+                            "le": 1.1000000000000001,
+                            "count": 7
+                        },
+                        {
+                            "le": 1.2,
+                            "count": 28902
+                        },
+                        {
+                            "le": "+Inf",
+                            "count": 0
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "segment_cleaner_segments_closed": {
+                "shard": "0",
+                "value": 899
+            }
+        },
+        {
+            "segment_cleaner_segments_count_close_journal": {
+                "shard": "0",
+                "value": 14
+            }
+        },
+        {
+            "segment_cleaner_segments_count_close_ool": {
+                "shard": "0",
+                "value": 850
+            }
+        },
+        {
+            "segment_cleaner_segments_count_open_journal": {
+                "shard": "0",
+                "value": 15
+            }
+        },
+        {
+            "segment_cleaner_segments_count_open_ool": {
+                "shard": "0",
+                "value": 856
+            }
+        },
+        {
+            "segment_cleaner_segments_count_release_journal": {
+                "shard": "0",
+                "value": 0
+            }
+        },
+        {
+            "segment_cleaner_segments_count_release_ool": {
+                "shard": "0",
+                "value": 0
+            }
+        },
+        {
+            "segment_cleaner_segments_empty": {
+                "shard": "0",
+                "value": 28902
+            }
+        },
+        {
+            "segment_cleaner_segments_in_journal": {
+                "shard": "0",
+                "value": 3
+            }
+        },
+        {
+            "segment_cleaner_segments_number": {
+                "shard": "0",
+                "value": 29808
+            }
+        },
+        {
+            "segment_cleaner_segments_open": {
+                "shard": "0",
+                "value": 7
+            }
+        },
+        {
+            "segment_cleaner_segments_type_journal": {
+                "shard": "0",
+                "value": 20
+            }
+        },
+        {
+            "segment_cleaner_segments_type_ool": {
+                "shard": "0",
+                "value": 886
+            }
+        },
+        {
+            "segment_cleaner_total_bytes": {
+                "shard": "0",
+                "value": 2000381018112
+            }
+        },
+        {
+            "segment_cleaner_unavailable_reclaimable_bytes": {
+                "shard": "0",
+                "value": 60196651008
+            }
+        },
+        {
+            "segment_cleaner_unavailable_unreclaimable_bytes": {
+                "shard": "0",
+                "value": 200802304
+            }
+        },
+        {
+            "segment_cleaner_unavailable_unused_bytes": {
+                "shard": "0",
+                "value": 6464389120
+            }
+        },
+        {
+            "segment_cleaner_used_bytes": {
+                "shard": "0",
+                "value": 53933064192
+            }
+        },
+        {
+            "segment_manager_closed_segments": {
+                "device_id": "0",
+                "shard": "0",
+                "value": 864
+            }
+        },
+        {
+            "segment_manager_closed_segments_unused_bytes": {
+                "device_id": "0",
+                "shard": "0",
+                "value": 0
+            }
+        },
+        {
+            "segment_manager_data_read_bytes": {
+                "device_id": "0",
+                "shard": "0",
+                "value": 65687552
+            }
+        },
+        {
+            "segment_manager_data_read_num": {
+                "device_id": "0",
+                "shard": "0",
+                "value": 5790
+            }
+        },
+        {
+            "segment_manager_data_write_bytes": {
+                "device_id": "0",
+                "shard": "0",
+                "value": 54491095040
+            }
+        },
+        {
+            "segment_manager_data_write_num": {
+                "device_id": "0",
+                "shard": "0",
+                "value": 40460
+            }
+        },
+        {
+            "segment_manager_metadata_write_bytes": {
+                "device_id": "0",
+                "shard": "0",
+                "value": 56852480
+            }
+        },
+        {
+            "segment_manager_metadata_write_num": {
+                "device_id": "0",
+                "shard": "0",
+                "value": 1735
+            }
+        },
+        {
+            "segment_manager_opened_segments": {
+                "device_id": "0",
+                "shard": "0",
+                "value": 871
+            }
+        },
+        {
+            "segment_manager_released_segments": {
+                "device_id": "0",
+                "shard": "0",
+                "value": 0
+            }
+        },
+        {
+            "stall_detector_reported": {
+                "shard": "0",
+                "value": 10
+            }
+        },
+        {
+            "LBA_alloc_extents": {
+                "shard": "1",
+                "value": 52112
+            }
+        },
+        {
+            "LBA_alloc_extents_iter_nexts": {
+                "shard": "1",
+                "value": 53775
+            }
+        },
+        {
+            "alien_receive_batch_queue_length": {
+                "shard": "1",
+                "value": 0
+            }
+        },
+        {
+            "alien_total_received_messages": {
+                "shard": "1",
+                "value": 0
+            }
+        },
+        {
+            "alien_total_sent_messages": {
+                "shard": "1",
+                "value": 0
+            }
+        },
+        {
+            "background_process_io_blocked_count": {
+                "shard": "1",
+                "value": 0
+            }
+        },
+        {
+            "background_process_io_blocked_count_clean": {
+                "shard": "1",
+                "value": 0
+            }
+        },
+        {
+            "background_process_io_blocked_count_trim": {
+                "shard": "1",
+                "value": 0
+            }
+        },
+        {
+            "background_process_io_blocked_sum": {
+                "shard": "1",
+                "value": 0
+            }
+        },
+        {
+            "background_process_io_count": {
+                "shard": "1",
+                "value": 12847
+            }
+        },
+        {
+            "io_queue_activations": {
+                "class": "main",
+                "iogroup": "0",
+                "mountpoint": "none",
+                "shard": "1",
+                "stream": "rw",
+                "value": 47166
+            }
+        },
+        {
+            "io_queue_adjusted_consumption": {
+                "class": "main",
+                "iogroup": "0",
+                "mountpoint": "none",
+                "shard": "1",
+                "stream": "rw",
+                "value": 0.0063284738063812259
+            }
+        },
+        {
+            "io_queue_consumption": {
+                "class": "main",
+                "iogroup": "0",
+                "mountpoint": "none",
+                "shard": "1",
+                "stream": "rw",
+                "value": 6.3284738063812256
+            }
+        },
+        {
+            "io_queue_delay": {
+                "class": "main",
+                "iogroup": "0",
+                "mountpoint": "none",
+                "shard": "1",
+                "value": 4.0779999999999997e-06
+            }
+        },
+        {
+            "io_queue_disk_queue_length": {
+                "class": "main",
+                "iogroup": "0",
+                "mountpoint": "none",
+                "shard": "1",
+                "value": 0
+            }
+        },
+        {
+            "io_queue_flow_ratio": {
+                "iogroup": "0",
+                "mountpoint": "none",
+                "shard": "1",
+                "value": 0.99881645425298382
+            }
+        },
+        {
+            "io_queue_queue_length": {
+                "class": "main",
+                "iogroup": "0",
+                "mountpoint": "none",
+                "shard": "1",
+                "value": 0
+            }
+        },
+        {
+            "io_queue_shares": {
+                "class": "main",
+                "iogroup": "0",
+                "mountpoint": "none",
+                "shard": "1",
+                "value": 1000
+            }
+        },
+        {
+            "io_queue_starvation_time_sec": {
+                "class": "main",
+                "iogroup": "0",
+                "mountpoint": "none",
+                "shard": "1",
+                "value": 2.4831657219999852
+            }
+        },
+        {
+            "io_queue_total_bytes": {
+                "class": "main",
+                "iogroup": "0",
+                "mountpoint": "none",
+                "shard": "1",
+                "value": 54336794624
+            }
+        },
+        {
+            "io_queue_total_delay_sec": {
+                "class": "main",
+                "iogroup": "0",
+                "mountpoint": "none",
+                "shard": "1",
+                "value": 2.7053439579999838
+            }
+        },
+        {
+            "io_queue_total_exec_sec": {
+                "class": "main",
+                "iogroup": "0",
+                "mountpoint": "none",
+                "shard": "1",
+                "value": 26.667805143000098
+            }
+        },
+        {
+            "io_queue_total_operations": {
+                "class": "main",
+                "iogroup": "0",
+                "mountpoint": "none",
+                "shard": "1",
+                "value": 47620
+            }
+        },
+        {
+            "io_queue_total_read_bytes": {
+                "class": "main",
+                "iogroup": "0",
+                "mountpoint": "none",
+                "shard": "1",
+                "value": 62017536
+            }
+        },
+        {
+            "io_queue_total_read_ops": {
+                "class": "main",
+                "iogroup": "0",
+                "mountpoint": "none",
+                "shard": "1",
+                "value": 5542
+            }
+        },
+        {
+            "io_queue_total_split_bytes": {
+                "class": "main",
+                "iogroup": "0",
+                "mountpoint": "none",
+                "shard": "1",
+                "value": 0
+            }
+        },
+        {
+            "io_queue_total_split_ops": {
+                "class": "main",
+                "iogroup": "0",
+                "mountpoint": "none",
+                "shard": "1",
+                "value": 0
+            }
+        },
+        {
+            "io_queue_total_write_bytes": {
+                "class": "main",
+                "iogroup": "0",
+                "mountpoint": "none",
+                "shard": "1",
+                "value": 54274777088
+            }
+        },
+        {
+            "io_queue_total_write_ops": {
+                "class": "main",
+                "iogroup": "0",
+                "mountpoint": "none",
+                "shard": "1",
+                "value": 42078
+            }
+        },
+        {
+            "journal_io_depth_num": {
+                "shard": "1",
+                "submitter": "Dev(0x0)_DATA_G2",
+                "value": 13043
+            }
+        },
+        {
+            "journal_io_depth_num": {
+                "shard": "1",
+                "submitter": "Dev(0x0)_DATA_G3",
+                "value": 0
+            }
+        },
+        {
+            "journal_io_depth_num": {
+                "shard": "1",
+                "submitter": "Dev(0x0)_DATA_G4",
+                "value": 0
+            }
+        },
+        {
+            "journal_io_depth_num": {
+                "shard": "1",
+                "submitter": "Dev(0x0)_MD_G1",
+                "value": 26316
+            }
+        },
+        {
+            "journal_io_depth_num": {
+                "shard": "1",
+                "submitter": "Dev(0x0)_MD_G2",
+                "value": 0
+            }
+        },
+        {
+            "journal_io_depth_num": {
+                "shard": "1",
+                "submitter": "Dev(0x0)_MD_G3",
+                "value": 0
+            }
+        },
+        {
+            "journal_io_depth_num": {
+                "shard": "1",
+                "submitter": "Dev(0x0)_MD_G4",
+                "value": 0
+            }
+        },
+        {
+            "journal_io_num": {
+                "shard": "1",
+                "submitter": "Dev(0x0)_DATA_G2",
+                "value": 12690
+            }
+        },
+        {
+            "journal_io_num": {
+                "shard": "1",
+                "submitter": "Dev(0x0)_DATA_G3",
+                "value": 0
+            }
+        },
+        {
+            "journal_io_num": {
+                "shard": "1",
+                "submitter": "Dev(0x0)_DATA_G4",
+                "value": 0
+            }
+        },
+        {
+            "journal_io_num": {
+                "shard": "1",
+                "submitter": "Dev(0x0)_MD_G1",
+                "value": 25937
+            }
+        },
+        {
+            "journal_io_num": {
+                "shard": "1",
+                "submitter": "Dev(0x0)_MD_G2",
+                "value": 0
+            }
+        },
+        {
+            "journal_io_num": {
+                "shard": "1",
+                "submitter": "Dev(0x0)_MD_G3",
+                "value": 0
+            }
+        },
+        {
+            "journal_io_num": {
+                "shard": "1",
+                "submitter": "Dev(0x0)_MD_G4",
+                "value": 0
+            }
+        },
+        {
+            "journal_record_group_data_bytes": {
+                "shard": "1",
+                "submitter": "Dev(0x0)_DATA_G2",
+                "value": 53225717760
+            }
+        },
+        {
+            "journal_record_group_data_bytes": {
+                "shard": "1",
+                "submitter": "Dev(0x0)_DATA_G3",
+                "value": 0
+            }
+        },
+        {
+            "journal_record_group_data_bytes": {
+                "shard": "1",
+                "submitter": "Dev(0x0)_DATA_G4",
+                "value": 0
+            }
+        },
+        {
+            "journal_record_group_data_bytes": {
+                "shard": "1",
+                "submitter": "Dev(0x0)_MD_G1",
+                "value": 879181824
+            }
+        },
+        {
+            "journal_record_group_data_bytes": {
+                "shard": "1",
+                "submitter": "Dev(0x0)_MD_G2",
+                "value": 0
+            }
+        },
+        {
+            "journal_record_group_data_bytes": {
+                "shard": "1",
+                "submitter": "Dev(0x0)_MD_G3",
+                "value": 0
+            }
+        },
+        {
+            "journal_record_group_data_bytes": {
+                "shard": "1",
+                "submitter": "Dev(0x0)_MD_G4",
+                "value": 0
+            }
+        },
+        {
+            "journal_record_group_metadata_bytes": {
+                "shard": "1",
+                "submitter": "Dev(0x0)_DATA_G2",
+                "value": 0
+            }
+        },
+        {
+            "journal_record_group_metadata_bytes": {
+                "shard": "1",
+                "submitter": "Dev(0x0)_DATA_G3",
+                "value": 0
+            }
+        },
+        {
+            "journal_record_group_metadata_bytes": {
+                "shard": "1",
+                "submitter": "Dev(0x0)_DATA_G4",
+                "value": 0
+            }
+        },
+        {
+            "journal_record_group_metadata_bytes": {
+                "shard": "1",
+                "submitter": "Dev(0x0)_MD_G1",
+                "value": 27096924
+            }
+        },
+        {
+            "journal_record_group_metadata_bytes": {
+                "shard": "1",
+                "submitter": "Dev(0x0)_MD_G2",
+                "value": 0
+            }
+        },
+        {
+            "journal_record_group_metadata_bytes": {
+                "shard": "1",
+                "submitter": "Dev(0x0)_MD_G3",
+                "value": 0
+            }
+        },
+        {
+            "journal_record_group_metadata_bytes": {
+                "shard": "1",
+                "submitter": "Dev(0x0)_MD_G4",
+                "value": 0
+            }
+        },
+        {
+            "journal_record_group_padding_bytes": {
+                "shard": "1",
+                "submitter": "Dev(0x0)_DATA_G2",
+                "value": 0
+            }
+        },
+        {
+            "journal_record_group_padding_bytes": {
+                "shard": "1",
+                "submitter": "Dev(0x0)_DATA_G3",
+                "value": 0
+            }
+        },
+        {
+            "journal_record_group_padding_bytes": {
+                "shard": "1",
+                "submitter": "Dev(0x0)_DATA_G4",
+                "value": 0
+            }
+        },
+        {
+            "journal_record_group_padding_bytes": {
+                "shard": "1",
+                "submitter": "Dev(0x0)_MD_G1",
+                "value": 79157412
+            }
+        },
+        {
+            "journal_record_group_padding_bytes": {
+                "shard": "1",
+                "submitter": "Dev(0x0)_MD_G2",
+                "value": 0
+            }
+        },
+        {
+            "journal_record_group_padding_bytes": {
+                "shard": "1",
+                "submitter": "Dev(0x0)_MD_G3",
+                "value": 0
+            }
+        },
+        {
+            "journal_record_group_padding_bytes": {
+                "shard": "1",
+                "submitter": "Dev(0x0)_MD_G4",
+                "value": 0
+            }
+        },
+        {
+            "journal_record_num": {
+                "shard": "1",
+                "submitter": "Dev(0x0)_DATA_G2",
+                "value": 12690
+            }
+        },
+        {
+            "journal_record_num": {
+                "shard": "1",
+                "submitter": "Dev(0x0)_DATA_G3",
+                "value": 0
+            }
+        },
+        {
+            "journal_record_num": {
+                "shard": "1",
+                "submitter": "Dev(0x0)_DATA_G4",
+                "value": 0
+            }
+        },
+        {
+            "journal_record_num": {
+                "shard": "1",
+                "submitter": "Dev(0x0)_MD_G1",
+                "value": 26028
+            }
+        },
+        {
+            "journal_record_num": {
+                "shard": "1",
+                "submitter": "Dev(0x0)_MD_G2",
+                "value": 0
+            }
+        },
+        {
+            "journal_record_num": {
+                "shard": "1",
+                "submitter": "Dev(0x0)_MD_G3",
+                "value": 0
+            }
+        },
+        {
+            "journal_record_num": {
+                "shard": "1",
+                "submitter": "Dev(0x0)_MD_G4",
+                "value": 0
+            }
+        },
+        {
+            "journal_trimmer_alloc_journal_bytes": {
+                "shard": "1",
+                "value": 134180864
+            }
+        },
+        {
+            "journal_trimmer_dirty_journal_bytes": {
+                "shard": "1",
+                "value": 134111232
+            }
+        },
+        {
+            "memory_allocated_memory": {
+                "shard": "1",
+                "value": 1295654912
+            }
+        },
+        {
+            "memory_cross_cpu_free_operations": {
+                "shard": "1",
+                "value": 149022
+            }
+        },
+        {
+            "memory_free_memory": {
+                "shard": "1",
+                "value": 67423821824
+            }
+        },
+        {
+            "memory_free_operations": {
+                "shard": "1",
+                "value": 13860755
+            }
+        },
+        {
+            "memory_malloc_failed": {
+                "shard": "1",
+                "value": 0
+            }
+        },
+        {
+            "memory_malloc_live_objects": {
+                "shard": "1",
+                "value": 132619
+            }
+        },
+        {
+            "memory_malloc_operations": {
+                "shard": "1",
+                "value": 13993374
+            }
+        },
+        {
+            "memory_reclaims_operations": {
+                "shard": "1",
+                "value": 0
+            }
+        },
+        {
+            "memory_total_memory": {
+                "shard": "1",
+                "value": 68719476736
+            }
+        },
+        {
+            "network_bytes_received": {
+                "group": "atexit",
+                "shard": "1",
+                "value": 0
+            }
+        },
+        {
+            "network_bytes_received": {
+                "group": "main",
+                "shard": "1",
+                "value": 24242793405
+            }
+        },
+        {
+            "network_bytes_sent": {
+                "group": "atexit",
+                "shard": "1",
+                "value": 0
+            }
+        },
+        {
+            "network_bytes_sent": {
+                "group": "main",
+                "shard": "1",
+                "value": 3346824267
+            }
+        },
+        {
+            "reactor_abandoned_failed_futures": {
+                "shard": "1",
+                "value": 0
+            }
+        },
+        {
+            "reactor_aio_bytes_read": {
+                "shard": "1",
+                "value": 62017536
+            }
+        },
+        {
+            "reactor_aio_bytes_write": {
+                "shard": "1",
+                "value": 54274777088
+            }
+        },
+        {
+            "reactor_aio_errors": {
+                "shard": "1",
+                "value": 0
+            }
+        },
+        {
+            "reactor_aio_outsizes": {
+                "shard": "1",
+                "value": 0
+            }
+        },
+        {
+            "reactor_aio_reads": {
+                "shard": "1",
+                "value": 5542
+            }
+        },
+        {
+            "reactor_aio_writes": {
+                "shard": "1",
+                "value": 42078
+            }
+        },
+        {
+            "reactor_awake_time_ms_total": {
+                "shard": "1",
+                "value": 157243
+            }
+        },
+        {
+            "reactor_cpp_exceptions": {
+                "shard": "1",
+                "value": 69
+            }
+        },
+        {
+            "reactor_cpu_busy_ms": {
+                "shard": "1",
+                "value": 109407
+            }
+        },
+        {
+            "reactor_cpu_steal_time_ms": {
+                "shard": "1",
+                "value": 1536
+            }
+        },
+        {
+            "reactor_cpu_used_time_ms": {
+                "shard": "1",
+                "value": 155706
+            }
+        },
+        {
+            "reactor_fstream_read_bytes": {
+                "shard": "1",
+                "value": 0
+            }
+        },
+        {
+            "reactor_fstream_read_bytes_blocked": {
+                "shard": "1",
+                "value": 0
+            }
+        },
+        {
+            "reactor_fstream_reads": {
+                "shard": "1",
+                "value": 0
+            }
+        },
+        {
+            "reactor_fstream_reads_ahead_bytes_discarded": {
+                "shard": "1",
+                "value": 0
+            }
+        },
+        {
+            "reactor_fstream_reads_aheads_discarded": {
+                "shard": "1",
+                "value": 0
+            }
+        },
+        {
+            "reactor_fstream_reads_blocked": {
+                "shard": "1",
+                "value": 0
+            }
+        },
+        {
+            "reactor_fsyncs": {
+                "shard": "1",
+                "value": 0
+            }
+        },
+        {
+            "reactor_io_threaded_fallbacks": {
+                "shard": "1",
+                "value": 3
+            }
+        },
+        {
+            "reactor_logging_failures": {
+                "shard": "1",
+                "value": 0
+            }
+        },
+        {
+            "reactor_polls": {
+                "shard": "1",
+                "value": 95359828
+            }
+        },
+        {
+            "reactor_sleep_time_ms_total": {
+                "shard": "1",
+                "value": 2869555
+            }
+        },
+        {
+            "reactor_stalls": {
+                "shard": "1",
+                "value": {
+                    "sum": 62037760,
+                    "count": 26221,
+                    "buckets": [
+                        {
+                            "le": 640,
+                            "count": 0
+                        },
+                        {
+                            "le": 768,
+                            "count": 0
+                        },
+                        {
+                            "le": 896,
+                            "count": 0
+                        },
+                        {
+                            "le": 1024,
+                            "count": 653
+                        },
+                        {
+                            "le": 1280,
+                            "count": 6115
+                        },
+                        {
+                            "le": 1536,
+                            "count": 10080
+                        },
+                        {
+                            "le": 1792,
+                            "count": 13281
+                        },
+                        {
+                            "le": 2048,
+                            "count": 15807
+                        },
+                        {
+                            "le": 2560,
+                            "count": 19594
+                        },
+                        {
+                            "le": 3072,
+                            "count": 21899
+                        },
+                        {
+                            "le": 3584,
+                            "count": 23448
+                        },
+                        {
+                            "le": 4096,
+                            "count": 24425
+                        },
+                        {
+                            "le": 5120,
+                            "count": 25428
+                        },
+                        {
+                            "le": 6144,
+                            "count": 25877
+                        },
+                        {
+                            "le": 7168,
+                            "count": 26082
+                        },
+                        {
+                            "le": 8192,
+                            "count": 26160
+                        },
+                        {
+                            "le": 10240,
+                            "count": 26212
+                        },
+                        {
+                            "le": 12288,
+                            "count": 26216
+                        },
+                        {
+                            "le": 14336,
+                            "count": 26217
+                        },
+                        {
+                            "le": 16384,
+                            "count": 26219
+                        },
+                        {
+                            "le": 20480,
+                            "count": 26219
+                        },
+                        {
+                            "le": 24576,
+                            "count": 26220
+                        },
+                        {
+                            "le": 28672,
+                            "count": 26220
+                        },
+                        {
+                            "le": 32768,
+                            "count": 26220
+                        },
+                        {
+                            "le": 40960,
+                            "count": 26220
+                        },
+                        {
+                            "le": 49152,
+                            "count": 26220
+                        },
+                        {
+                            "le": 57344,
+                            "count": 26220
+                        },
+                        {
+                            "le": 65536,
+                            "count": 26220
+                        },
+                        {
+                            "le": 81920,
+                            "count": 26220
+                        },
+                        {
+                            "le": 98304,
+                            "count": 26220
+                        },
+                        {
+                            "le": 114688,
+                            "count": 26220
+                        },
+                        {
+                            "le": 131072,
+                            "count": 26220
+                        },
+                        {
+                            "le": 163840,
+                            "count": 26220
+                        },
+                        {
+                            "le": 196608,
+                            "count": 26220
+                        },
+                        {
+                            "le": 229376,
+                            "count": 26220
+                        },
+                        {
+                            "le": 262144,
+                            "count": 26220
+                        },
+                        {
+                            "le": 327680,
+                            "count": 26220
+                        },
+                        {
+                            "le": 393216,
+                            "count": 26221
+                        },
+                        {
+                            "le": 458752,
+                            "count": 26221
+                        },
+                        {
+                            "le": 524288,
+                            "count": 26221
+                        },
+                        {
+                            "le": 655360,
+                            "count": 26221
+                        },
+                        {
+                            "le": 786432,
+                            "count": 26221
+                        },
+                        {
+                            "le": 917504,
+                            "count": 26221
+                        },
+                        {
+                            "le": 1048576,
+                            "count": 26221
+                        },
+                        {
+                            "le": 1310720,
+                            "count": 26221
+                        },
+                        {
+                            "le": 1572864,
+                            "count": 26221
+                        },
+                        {
+                            "le": 1835008,
+                            "count": 26221
+                        },
+                        {
+                            "le": 2097152,
+                            "count": 26221
+                        },
+                        {
+                            "le": 2621440,
+                            "count": 26221
+                        },
+                        {
+                            "le": 3145728,
+                            "count": 26221
+                        },
+                        {
+                            "le": 3670016,
+                            "count": 26221
+                        },
+                        {
+                            "le": 4194304,
+                            "count": 26221
+                        },
+                        {
+                            "le": 5242880,
+                            "count": 26221
+                        },
+                        {
+                            "le": 6291456,
+                            "count": 26221
+                        },
+                        {
+                            "le": 7340032,
+                            "count": 26221
+                        },
+                        {
+                            "le": 8388608,
+                            "count": 26221
+                        },
+                        {
+                            "le": 10485760,
+                            "count": 26221
+                        },
+                        {
+                            "le": 12582912,
+                            "count": 26221
+                        },
+                        {
+                            "le": 14680064,
+                            "count": 26221
+                        },
+                        {
+                            "le": 16777216,
+                            "count": 26221
+                        },
+                        {
+                            "le": 20971520,
+                            "count": 26221
+                        },
+                        {
+                            "le": 25165824,
+                            "count": 26221
+                        },
+                        {
+                            "le": 29360128,
+                            "count": 26221
+                        },
+                        {
+                            "le": 33554432,
+                            "count": 26221
+                        },
+                        {
+                            "le": "+Inf",
+                            "count": 26221
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "reactor_tasks_pending": {
+                "shard": "1",
+                "value": 0
+            }
+        },
+        {
+            "reactor_tasks_processed": {
+                "shard": "1",
+                "value": 2547440
+            }
+        },
+        {
+            "reactor_timers_pending": {
+                "shard": "1",
+                "value": 0
+            }
+        },
+        {
+            "reactor_utilization": {
+                "shard": "1",
+                "value": 8.5427083199999583
+            }
+        },
+        {
+            "scheduler_queue_length": {
+                "group": "atexit",
+                "shard": "1",
+                "value": 0
+            }
+        },
+        {
+            "scheduler_queue_length": {
+                "group": "main",
+                "shard": "1",
+                "value": 0
+            }
+        },
+        {
+            "scheduler_runtime_ms": {
+                "group": "atexit",
+                "shard": "1",
+                "value": 0
+            }
+        },
+        {
+            "scheduler_runtime_ms": {
+                "group": "main",
+                "shard": "1",
+                "value": 104771
+            }
+        },
+        {
+            "scheduler_shares": {
+                "group": "atexit",
+                "shard": "1",
+                "value": 1000
+            }
+        },
+        {
+            "scheduler_shares": {
+                "group": "main",
+                "shard": "1",
+                "value": 1000
+            }
+        },
+        {
+            "scheduler_starvetime_ms": {
+                "group": "atexit",
+                "shard": "1",
+                "value": 0
+            }
+        },
+        {
+            "scheduler_starvetime_ms": {
+                "group": "main",
+                "shard": "1",
+                "value": 1261
+            }
+        },
+        {
+            "scheduler_tasks_processed": {
+                "group": "atexit",
+                "shard": "1",
+                "value": 0
+            }
+        },
+        {
+            "scheduler_tasks_processed": {
+                "group": "main",
+                "shard": "1",
+                "value": 2547440
+            }
+        },
+        {
+            "scheduler_time_spent_on_task_quota_violations_ms": {
+                "group": "atexit",
+                "shard": "1",
+                "value": 0
+            }
+        },
+        {
+            "scheduler_time_spent_on_task_quota_violations_ms": {
+                "group": "main",
+                "shard": "1",
+                "value": 43397
+            }
+        },
+        {
+            "scheduler_waittime_ms": {
+                "group": "atexit",
+                "shard": "1",
+                "value": 0
+            }
+        },
+        {
+            "scheduler_waittime_ms": {
+                "group": "main",
+                "shard": "1",
+                "value": 2920755
+            }
+        },
+        {
+            "seastore_concurrent_transactions": {
+                "shard": "1",
+                "value": 0
+            }
+        },
+        {
+            "seastore_op_lat": {
+                "latency": "DO_TRANSACTION",
+                "shard": "1",
+                "value": {
+                    "sum": 92938,
+                    "count": 12776,
+                    "buckets": [
+                        {
+                            "le": "+Inf",
+                            "count": 12776
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "seastore_op_lat": {
+                "latency": "GET_ATTR",
+                "shard": "1",
+                "value": {
+                    "sum": 0,
+                    "count": 0,
+                    "buckets": [
+                        {
+                            "le": "+Inf",
+                            "count": 0
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "seastore_op_lat": {
+                "latency": "GET_ATTRS",
+                "shard": "1",
+                "value": {
+                    "sum": 0,
+                    "count": 0,
+                    "buckets": [
+                        {
+                            "le": "+Inf",
+                            "count": 0
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "seastore_op_lat": {
+                "latency": "OMAP_GET_VALUES",
+                "shard": "1",
+                "value": {
+                    "sum": 0,
+                    "count": 0,
+                    "buckets": [
+                        {
+                            "le": "+Inf",
+                            "count": 0
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "seastore_op_lat": {
+                "latency": "OMAP_GET_VALUES2",
+                "shard": "1",
+                "value": {
+                    "sum": 0,
+                    "count": 0,
+                    "buckets": [
+                        {
+                            "le": "+Inf",
+                            "count": 0
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "seastore_op_lat": {
+                "latency": "READ",
+                "shard": "1",
+                "value": {
+                    "sum": 0,
+                    "count": 0,
+                    "buckets": [
+                        {
+                            "le": "+Inf",
+                            "count": 0
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "seastore_op_lat": {
+                "latency": "STAT",
+                "shard": "1",
+                "value": {
+                    "sum": 0,
+                    "count": 0,
+                    "buckets": [
+                        {
+                            "le": "+Inf",
+                            "count": 0
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "seastore_op_lat": {
+                "latency": "WRITE",
+                "shard": "1",
+                "value": {
+                    "sum": 0,
+                    "count": 0,
+                    "buckets": [
+                        {
+                            "le": "+Inf",
+                            "count": 0
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "seastore_pending_transactions": {
+                "shard": "1",
+                "value": 0
+            }
+        },
+        {
+            "segment_cleaner_available_bytes": {
+                "shard": "1",
+                "value": 1940276224000
+            }
+        },
+        {
+            "segment_cleaner_available_ratio": {
+                "shard": "1",
+                "value": 0.96995332710728877
+            }
+        },
+        {
+            "segment_cleaner_closed_journal_total_bytes": {
+                "shard": "1",
+                "value": 939524096
+            }
+        },
+        {
+            "segment_cleaner_closed_journal_used_bytes": {
+                "shard": "1",
+                "value": 835735552
+            }
+        },
+        {
+            "segment_cleaner_closed_ool_total_bytes": {
+                "shard": "1",
+                "value": 56706990080
+            }
+        },
+        {
+            "segment_cleaner_closed_ool_used_bytes": {
+                "shard": "1",
+                "value": 52755955712
+            }
+        },
+        {
+            "segment_cleaner_projected_count": {
+                "shard": "1",
+                "value": 23930
+            }
+        },
+        {
+            "segment_cleaner_projected_used_bytes_sum": {
+                "shard": "1",
+                "value": 248990875648
+            }
+        },
+        {
+            "segment_cleaner_reclaim_ratio": {
+                "shard": "1",
+                "value": 0.10487376944098899
+            }
+        },
+        {
+            "segment_cleaner_reclaimed_bytes": {
+                "shard": "1",
+                "value": 0
+            }
+        },
+        {
+            "segment_cleaner_reclaimed_segment_bytes": {
+                "shard": "1",
+                "value": 0
+            }
+        },
+        {
+            "segment_cleaner_segment_size": {
+                "shard": "1",
+                "value": 67108864
+            }
+        },
+        {
+            "segment_cleaner_segment_utilization_distribution": {
+                "shard": "1",
+                "value": {
+                    "sum": 0,
+                    "count": 0,
+                    "buckets": [
+                        {
+                            "le": 0.10000000000000001,
+                            "count": 35
+                        },
+                        {
+                            "le": 0.20000000000000001,
+                            "count": 0
+                        },
+                        {
+                            "le": 0.29999999999999999,
+                            "count": 0
+                        },
+                        {
+                            "le": 0.40000000000000002,
+                            "count": 0
+                        },
+                        {
+                            "le": 0.5,
+                            "count": 0
+                        },
+                        {
+                            "le": 0.59999999999999998,
+                            "count": 0
+                        },
+                        {
+                            "le": 0.69999999999999996,
+                            "count": 0
+                        },
+                        {
+                            "le": 0.80000000000000004,
+                            "count": 2
+                        },
+                        {
+                            "le": 0.90000000000000002,
+                            "count": 67
+                        },
+                        {
+                            "le": 1,
+                            "count": 790
+                        },
+                        {
+                            "le": 1.1000000000000001,
+                            "count": 7
+                        },
+                        {
+                            "le": 1.2,
+                            "count": 28907
+                        },
+                        {
+                            "le": "+Inf",
+                            "count": 0
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "segment_cleaner_segments_closed": {
+                "shard": "1",
+                "value": 894
+            }
+        },
+        {
+            "segment_cleaner_segments_count_close_journal": {
+                "shard": "1",
+                "value": 14
+            }
+        },
+        {
+            "segment_cleaner_segments_count_close_ool": {
+                "shard": "1",
+                "value": 845
+            }
+        },
+        {
+            "segment_cleaner_segments_count_open_journal": {
+                "shard": "1",
+                "value": 15
+            }
+        },
+        {
+            "segment_cleaner_segments_count_open_ool": {
+                "shard": "1",
+                "value": 851
+            }
+        },
+        {
+            "segment_cleaner_segments_count_release_journal": {
+                "shard": "1",
+                "value": 0
+            }
+        },
+        {
+            "segment_cleaner_segments_count_release_ool": {
+                "shard": "1",
+                "value": 0
+            }
+        },
+        {
+            "segment_cleaner_segments_empty": {
+                "shard": "1",
+                "value": 28907
+            }
+        },
+        {
+            "segment_cleaner_segments_in_journal": {
+                "shard": "1",
+                "value": 3
+            }
+        },
+        {
+            "segment_cleaner_segments_number": {
+                "shard": "1",
+                "value": 29808
+            }
+        },
+        {
+            "segment_cleaner_segments_open": {
+                "shard": "1",
+                "value": 7
+            }
+        },
+        {
+            "segment_cleaner_segments_type_journal": {
+                "shard": "1",
+                "value": 20
+            }
+        },
+        {
+            "segment_cleaner_segments_type_ool": {
+                "shard": "1",
+                "value": 881
+            }
+        },
+        {
+            "segment_cleaner_total_bytes": {
+                "shard": "1",
+                "value": 2000381018112
+            }
+        },
+        {
+            "segment_cleaner_unavailable_reclaimable_bytes": {
+                "shard": "1",
+                "value": 59861106688
+            }
+        },
+        {
+            "segment_cleaner_unavailable_unreclaimable_bytes": {
+                "shard": "1",
+                "value": 243687424
+            }
+        },
+        {
+            "segment_cleaner_unavailable_unused_bytes": {
+                "shard": "1",
+                "value": 6303416320
+            }
+        },
+        {
+            "segment_cleaner_used_bytes": {
+                "shard": "1",
+                "value": 53801377792
+            }
+        },
+        {
+            "segment_manager_closed_segments": {
+                "device_id": "0",
+                "shard": "1",
+                "value": 859
+            }
+        },
+        {
+            "segment_manager_closed_segments_unused_bytes": {
+                "device_id": "0",
+                "shard": "1",
+                "value": 0
+            }
+        },
+        {
+            "segment_manager_data_read_bytes": {
+                "device_id": "0",
+                "shard": "1",
+                "value": 61980672
+            }
+        },
+        {
+            "segment_manager_data_read_num": {
+                "device_id": "0",
+                "shard": "1",
+                "value": 5540
+            }
+        },
+        {
+            "segment_manager_data_write_bytes": {
+                "device_id": "0",
+                "shard": "1",
+                "value": 54218219520
+            }
+        },
+        {
+            "segment_manager_data_write_num": {
+                "device_id": "0",
+                "shard": "1",
+                "value": 40352
+            }
+        },
+        {
+            "segment_manager_metadata_write_bytes": {
+                "device_id": "0",
+                "shard": "1",
+                "value": 56524800
+            }
+        },
+        {
+            "segment_manager_metadata_write_num": {
+                "device_id": "0",
+                "shard": "1",
+                "value": 1725
+            }
+        },
+        {
+            "segment_manager_opened_segments": {
+                "device_id": "0",
+                "shard": "1",
+                "value": 866
+            }
+        },
+        {
+            "segment_manager_released_segments": {
+                "device_id": "0",
+                "shard": "1",
+                "value": 0
+            }
+        },
+        {
+            "stall_detector_reported": {
+                "shard": "1",
+                "value": 3
+            }
+        },
+        {
+            "LBA_alloc_extents": {
+                "shard": "2",
+                "value": 50013
+            }
+        },
+        {
+            "LBA_alloc_extents_iter_nexts": {
+                "shard": "2",
+                "value": 51631
+            }
+        },
+        {
+            "alien_receive_batch_queue_length": {
+                "shard": "2",
+                "value": 0
+            }
+        },
+        {
+            "alien_total_received_messages": {
+                "shard": "2",
+                "value": 0
+            }
+        },
+        {
+            "alien_total_sent_messages": {
+                "shard": "2",
+                "value": 0
+            }
+        },
+        {
+            "background_process_io_blocked_count": {
+                "shard": "2",
+                "value": 0
+            }
+        },
+        {
+            "background_process_io_blocked_count_clean": {
+                "shard": "2",
+                "value": 0
+            }
+        },
+        {
+            "background_process_io_blocked_count_trim": {
+                "shard": "2",
+                "value": 0
+            }
+        },
+        {
+            "background_process_io_blocked_sum": {
+                "shard": "2",
+                "value": 0
+            }
+        },
+        {
+            "background_process_io_count": {
+                "shard": "2",
+                "value": 12356
+            }
+        },
+        {
+            "io_queue_activations": {
+                "class": "main",
+                "iogroup": "0",
+                "mountpoint": "none",
+                "shard": "2",
+                "stream": "rw",
+                "value": 45094
+            }
+        },
+        {
+            "io_queue_adjusted_consumption": {
+                "class": "main",
+                "iogroup": "0",
+                "mountpoint": "none",
+                "shard": "2",
+                "stream": "rw",
+                "value": 0.0060797352790832523
+            }
+        },
+        {
+            "io_queue_consumption": {
+                "class": "main",
+                "iogroup": "0",
+                "mountpoint": "none",
+                "shard": "2",
+                "stream": "rw",
+                "value": 6.079735279083252
+            }
+        },
+        {
+            "io_queue_delay": {
+                "class": "main",
+                "iogroup": "0",
+                "mountpoint": "none",
+                "shard": "2",
+                "value": 5.0499999999999999e-06
+            }
+        },
+        {
+            "io_queue_disk_queue_length": {
+                "class": "main",
+                "iogroup": "0",
+                "mountpoint": "none",
+                "shard": "2",
+                "value": 0
+            }
+        },
+        {
+            "io_queue_flow_ratio": {
+                "iogroup": "0",
+                "mountpoint": "none",
+                "shard": "2",
+                "value": 1.0040238276715816
+            }
+        },
+        {
+            "io_queue_queue_length": {
+                "class": "main",
+                "iogroup": "0",
+                "mountpoint": "none",
+                "shard": "2",
+                "value": 0
+            }
+        },
+        {
+            "io_queue_shares": {
+                "class": "main",
+                "iogroup": "0",
+                "mountpoint": "none",
+                "shard": "2",
+                "value": 1000
+            }
+        },
+        {
+            "io_queue_starvation_time_sec": {
+                "class": "main",
+                "iogroup": "0",
+                "mountpoint": "none",
+                "shard": "2",
+                "value": 1.2823484740000184
+            }
+        },
+        {
+            "io_queue_total_bytes": {
+                "class": "main",
+                "iogroup": "0",
+                "mountpoint": "none",
+                "shard": "2",
+                "value": 52201250816
+            }
+        },
+        {
+            "io_queue_total_delay_sec": {
+                "class": "main",
+                "iogroup": "0",
+                "mountpoint": "none",
+                "shard": "2",
+                "value": 1.3843092989999977
+            }
+        },
+        {
+            "io_queue_total_exec_sec": {
+                "class": "main",
+                "iogroup": "0",
+                "mountpoint": "none",
+                "shard": "2",
+                "value": 24.544892870999732
+            }
+        },
+        {
+            "io_queue_total_operations": {
+                "class": "main",
+                "iogroup": "0",
+                "mountpoint": "none",
+                "shard": "2",
+                "value": 45464
+            }
+        },
+        {
+            "io_queue_total_read_bytes": {
+                "class": "main",
+                "iogroup": "0",
+                "mountpoint": "none",
+                "shard": "2",
+                "value": 57151488
+            }
+        },
+        {
+            "io_queue_total_read_ops": {
+                "class": "main",
+                "iogroup": "0",
+                "mountpoint": "none",
+                "shard": "2",
+                "value": 5108
+            }
+        },
+        {
+            "io_queue_total_split_bytes": {
+                "class": "main",
+                "iogroup": "0",
+                "mountpoint": "none",
+                "shard": "2",
+                "value": 0
+            }
+        },
+        {
+            "io_queue_total_split_ops": {
+                "class": "main",
+                "iogroup": "0",
+                "mountpoint": "none",
+                "shard": "2",
+                "value": 0
+            }
+        },
+        {
+            "io_queue_total_write_bytes": {
+                "class": "main",
+                "iogroup": "0",
+                "mountpoint": "none",
+                "shard": "2",
+                "value": 52144099328
+            }
+        },
+        {
+            "io_queue_total_write_ops": {
+                "class": "main",
+                "iogroup": "0",
+                "mountpoint": "none",
+                "shard": "2",
+                "value": 40356
+            }
+        },
+        {
+            "journal_io_depth_num": {
+                "shard": "2",
+                "submitter": "Dev(0x0)_DATA_G2",
+                "value": 12498
+            }
+        },
+        {
+            "journal_io_depth_num": {
+                "shard": "2",
+                "submitter": "Dev(0x0)_DATA_G3",
+                "value": 0
+            }
+        },
+        {
+            "journal_io_depth_num": {
+                "shard": "2",
+                "submitter": "Dev(0x0)_DATA_G4",
+                "value": 0
+            }
+        },
+        {
+            "journal_io_depth_num": {
+                "shard": "2",
+                "submitter": "Dev(0x0)_MD_G1",
+                "value": 25143
+            }
+        },
+        {
+            "journal_io_depth_num": {
+                "shard": "2",
+                "submitter": "Dev(0x0)_MD_G2",
+                "value": 0
+            }
+        },
+        {
+            "journal_io_depth_num": {
+                "shard": "2",
+                "submitter": "Dev(0x0)_MD_G3",
+                "value": 0
+            }
+        },
+        {
+            "journal_io_depth_num": {
+                "shard": "2",
+                "submitter": "Dev(0x0)_MD_G4",
+                "value": 0
+            }
+        },
+        {
+            "journal_io_num": {
+                "shard": "2",
+                "submitter": "Dev(0x0)_DATA_G2",
+                "value": 12192
+            }
+        },
+        {
+            "journal_io_num": {
+                "shard": "2",
+                "submitter": "Dev(0x0)_DATA_G3",
+                "value": 0
+            }
+        },
+        {
+            "journal_io_num": {
+                "shard": "2",
+                "submitter": "Dev(0x0)_DATA_G4",
+                "value": 0
+            }
+        },
+        {
+            "journal_io_num": {
+                "shard": "2",
+                "submitter": "Dev(0x0)_MD_G1",
+                "value": 24845
+            }
+        },
+        {
+            "journal_io_num": {
+                "shard": "2",
+                "submitter": "Dev(0x0)_MD_G2",
+                "value": 0
+            }
+        },
+        {
+            "journal_io_num": {
+                "shard": "2",
+                "submitter": "Dev(0x0)_MD_G3",
+                "value": 0
+            }
+        },
+        {
+            "journal_io_num": {
+                "shard": "2",
+                "submitter": "Dev(0x0)_MD_G4",
+                "value": 0
+            }
+        },
+        {
+            "journal_record_group_data_bytes": {
+                "shard": "2",
+                "submitter": "Dev(0x0)_DATA_G2",
+                "value": 51136954368
+            }
+        },
+        {
+            "journal_record_group_data_bytes": {
+                "shard": "2",
+                "submitter": "Dev(0x0)_DATA_G3",
+                "value": 0
+            }
+        },
+        {
+            "journal_record_group_data_bytes": {
+                "shard": "2",
+                "submitter": "Dev(0x0)_DATA_G4",
+                "value": 0
+            }
+        },
+        {
+            "journal_record_group_data_bytes": {
+                "shard": "2",
+                "submitter": "Dev(0x0)_MD_G1",
+                "value": 844169216
+            }
+        },
+        {
+            "journal_record_group_data_bytes": {
+                "shard": "2",
+                "submitter": "Dev(0x0)_MD_G2",
+                "value": 0
+            }
+        },
+        {
+            "journal_record_group_data_bytes": {
+                "shard": "2",
+                "submitter": "Dev(0x0)_MD_G3",
+                "value": 0
+            }
+        },
+        {
+            "journal_record_group_data_bytes": {
+                "shard": "2",
+                "submitter": "Dev(0x0)_MD_G4",
+                "value": 0
+            }
+        },
+        {
+            "journal_record_group_metadata_bytes": {
+                "shard": "2",
+                "submitter": "Dev(0x0)_DATA_G2",
+                "value": 0
+            }
+        },
+        {
+            "journal_record_group_metadata_bytes": {
+                "shard": "2",
+                "submitter": "Dev(0x0)_DATA_G3",
+                "value": 0
+            }
+        },
+        {
+            "journal_record_group_metadata_bytes": {
+                "shard": "2",
+                "submitter": "Dev(0x0)_DATA_G4",
+                "value": 0
+            }
+        },
+        {
+            "journal_record_group_metadata_bytes": {
+                "shard": "2",
+                "submitter": "Dev(0x0)_MD_G1",
+                "value": 26003039
+            }
+        },
+        {
+            "journal_record_group_metadata_bytes": {
+                "shard": "2",
+                "submitter": "Dev(0x0)_MD_G2",
+                "value": 0
+            }
+        },
+        {
+            "journal_record_group_metadata_bytes": {
+                "shard": "2",
+                "submitter": "Dev(0x0)_MD_G3",
+                "value": 0
+            }
+        },
+        {
+            "journal_record_group_metadata_bytes": {
+                "shard": "2",
+                "submitter": "Dev(0x0)_MD_G4",
+                "value": 0
+            }
+        },
+        {
+            "journal_record_group_padding_bytes": {
+                "shard": "2",
+                "submitter": "Dev(0x0)_DATA_G2",
+                "value": 0
+            }
+        },
+        {
+            "journal_record_group_padding_bytes": {
+                "shard": "2",
+                "submitter": "Dev(0x0)_DATA_G3",
+                "value": 0
+            }
+        },
+        {
+            "journal_record_group_padding_bytes": {
+                "shard": "2",
+                "submitter": "Dev(0x0)_DATA_G4",
+                "value": 0
+            }
+        },
+        {
+            "journal_record_group_padding_bytes": {
+                "shard": "2",
+                "submitter": "Dev(0x0)_MD_G1",
+                "value": 75782561
+            }
+        },
+        {
+            "journal_record_group_padding_bytes": {
+                "shard": "2",
+                "submitter": "Dev(0x0)_MD_G2",
+                "value": 0
+            }
+        },
+        {
+            "journal_record_group_padding_bytes": {
+                "shard": "2",
+                "submitter": "Dev(0x0)_MD_G3",
+                "value": 0
+            }
+        },
+        {
+            "journal_record_group_padding_bytes": {
+                "shard": "2",
+                "submitter": "Dev(0x0)_MD_G4",
+                "value": 0
+            }
+        },
+        {
+            "journal_record_num": {
+                "shard": "2",
+                "submitter": "Dev(0x0)_DATA_G2",
+                "value": 12192
+            }
+        },
+        {
+            "journal_record_num": {
+                "shard": "2",
+                "submitter": "Dev(0x0)_DATA_G3",
+                "value": 0
+            }
+        },
+        {
+            "journal_record_num": {
+                "shard": "2",
+                "submitter": "Dev(0x0)_DATA_G4",
+                "value": 0
+            }
+        },
+        {
+            "journal_record_num": {
+                "shard": "2",
+                "submitter": "Dev(0x0)_MD_G1",
+                "value": 24917
+            }
+        },
+        {
+            "journal_record_num": {
+                "shard": "2",
+                "submitter": "Dev(0x0)_MD_G2",
+                "value": 0
+            }
+        },
+        {
+            "journal_record_num": {
+                "shard": "2",
+                "submitter": "Dev(0x0)_MD_G3",
+                "value": 0
+            }
+        },
+        {
+            "journal_record_num": {
+                "shard": "2",
+                "submitter": "Dev(0x0)_MD_G4",
+                "value": 0
+            }
+        },
+        {
+            "journal_trimmer_alloc_journal_bytes": {
+                "shard": "2",
+                "value": 134156288
+            }
+        },
+        {
+            "journal_trimmer_dirty_journal_bytes": {
+                "shard": "2",
+                "value": 134156288
+            }
+        },
+        {
+            "memory_allocated_memory": {
+                "shard": "2",
+                "value": 1326104576
+            }
+        },
+        {
+            "memory_cross_cpu_free_operations": {
+                "shard": "2",
+                "value": 136101
+            }
+        },
+        {
+            "memory_free_memory": {
+                "shard": "2",
+                "value": 67393372160
+            }
+        },
+        {
+            "memory_free_operations": {
+                "shard": "2",
+                "value": 14272324
+            }
+        },
+        {
+            "memory_malloc_failed": {
+                "shard": "2",
+                "value": 0
+            }
+        },
+        {
+            "memory_malloc_live_objects": {
+                "shard": "2",
+                "value": 127378
+            }
+        },
+        {
+            "memory_malloc_operations": {
+                "shard": "2",
+                "value": 14399702
+            }
+        },
+        {
+            "memory_reclaims_operations": {
+                "shard": "2",
+                "value": 0
+            }
+        },
+        {
+            "memory_total_memory": {
+                "shard": "2",
+                "value": 68719476736
+            }
+        },
+        {
+            "network_bytes_received": {
+                "group": "atexit",
+                "shard": "2",
+                "value": 0
+            }
+        },
+        {
+            "network_bytes_received": {
+                "group": "main",
+                "shard": "2",
+                "value": 26196423919
+            }
+        },
+        {
+            "network_bytes_sent": {
+                "group": "atexit",
+                "shard": "2",
+                "value": 0
+            }
+        },
+        {
+            "network_bytes_sent": {
+                "group": "main",
+                "shard": "2",
+                "value": 16549607560
+            }
+        },
+        {
+            "reactor_abandoned_failed_futures": {
+                "shard": "2",
+                "value": 0
+            }
+        },
+        {
+            "reactor_aio_bytes_read": {
+                "shard": "2",
+                "value": 57151488
+            }
+        },
+        {
+            "reactor_aio_bytes_write": {
+                "shard": "2",
+                "value": 52144099328
+            }
+        },
+        {
+            "reactor_aio_errors": {
+                "shard": "2",
+                "value": 0
+            }
+        },
+        {
+            "reactor_aio_outsizes": {
+                "shard": "2",
+                "value": 0
+            }
+        },
+        {
+            "reactor_aio_reads": {
+                "shard": "2",
+                "value": 5108
+            }
+        },
+        {
+            "reactor_aio_writes": {
+                "shard": "2",
+                "value": 40356
+            }
+        },
+        {
+            "reactor_awake_time_ms_total": {
+                "shard": "2",
+                "value": 132223
+            }
+        },
+        {
+            "reactor_cpp_exceptions": {
+                "shard": "2",
+                "value": 69
+            }
+        },
+        {
+            "reactor_cpu_busy_ms": {
+                "shard": "2",
+                "value": 88215
+            }
+        },
+        {
+            "reactor_cpu_steal_time_ms": {
+                "shard": "2",
+                "value": 6512
+            }
+        },
+        {
+            "reactor_cpu_used_time_ms": {
+                "shard": "2",
+                "value": 125711
+            }
+        },
+        {
+            "reactor_fstream_read_bytes": {
+                "shard": "2",
+                "value": 0
+            }
+        },
+        {
+            "reactor_fstream_read_bytes_blocked": {
+                "shard": "2",
+                "value": 0
+            }
+        },
+        {
+            "reactor_fstream_reads": {
+                "shard": "2",
+                "value": 0
+            }
+        },
+        {
+            "reactor_fstream_reads_ahead_bytes_discarded": {
+                "shard": "2",
+                "value": 0
+            }
+        },
+        {
+            "reactor_fstream_reads_aheads_discarded": {
+                "shard": "2",
+                "value": 0
+            }
+        },
+        {
+            "reactor_fstream_reads_blocked": {
+                "shard": "2",
+                "value": 0
+            }
+        },
+        {
+            "reactor_fsyncs": {
+                "shard": "2",
+                "value": 0
+            }
+        },
+        {
+            "reactor_io_threaded_fallbacks": {
+                "shard": "2",
+                "value": 3
+            }
+        },
+        {
+            "reactor_logging_failures": {
+                "shard": "2",
+                "value": 0
+            }
+        },
+        {
+            "reactor_polls": {
+                "shard": "2",
+                "value": 76156621
+            }
+        },
+        {
+            "reactor_sleep_time_ms_total": {
+                "shard": "2",
+                "value": 2894806
+            }
+        },
+        {
+            "reactor_stalls": {
+                "shard": "2",
+                "value": {
+                    "sum": 46880768,
+                    "count": 25934,
+                    "buckets": [
+                        {
+                            "le": 640,
+                            "count": 0
+                        },
+                        {
+                            "le": 768,
+                            "count": 0
+                        },
+                        {
+                            "le": 896,
+                            "count": 0
+                        },
+                        {
+                            "le": 1024,
+                            "count": 916
+                        },
+                        {
+                            "le": 1280,
+                            "count": 9055
+                        },
+                        {
+                            "le": 1536,
+                            "count": 15015
+                        },
+                        {
+                            "le": 1792,
+                            "count": 18952
+                        },
+                        {
+                            "le": 2048,
+                            "count": 21389
+                        },
+                        {
+                            "le": 2560,
+                            "count": 23927
+                        },
+                        {
+                            "le": 3072,
+                            "count": 24926
+                        },
+                        {
+                            "le": 3584,
+                            "count": 25397
+                        },
+                        {
+                            "le": 4096,
+                            "count": 25632
+                        },
+                        {
+                            "le": 5120,
+                            "count": 25847
+                        },
+                        {
+                            "le": 6144,
+                            "count": 25897
+                        },
+                        {
+                            "le": 7168,
+                            "count": 25916
+                        },
+                        {
+                            "le": 8192,
+                            "count": 25925
+                        },
+                        {
+                            "le": 10240,
+                            "count": 25930
+                        },
+                        {
+                            "le": 12288,
+                            "count": 25932
+                        },
+                        {
+                            "le": 14336,
+                            "count": 25932
+                        },
+                        {
+                            "le": 16384,
+                            "count": 25932
+                        },
+                        {
+                            "le": 20480,
+                            "count": 25933
+                        },
+                        {
+                            "le": 24576,
+                            "count": 25933
+                        },
+                        {
+                            "le": 28672,
+                            "count": 25933
+                        },
+                        {
+                            "le": 32768,
+                            "count": 25933
+                        },
+                        {
+                            "le": 40960,
+                            "count": 25933
+                        },
+                        {
+                            "le": 49152,
+                            "count": 25933
+                        },
+                        {
+                            "le": 57344,
+                            "count": 25933
+                        },
+                        {
+                            "le": 65536,
+                            "count": 25933
+                        },
+                        {
+                            "le": 81920,
+                            "count": 25933
+                        },
+                        {
+                            "le": 98304,
+                            "count": 25933
+                        },
+                        {
+                            "le": 114688,
+                            "count": 25933
+                        },
+                        {
+                            "le": 131072,
+                            "count": 25933
+                        },
+                        {
+                            "le": 163840,
+                            "count": 25933
+                        },
+                        {
+                            "le": 196608,
+                            "count": 25933
+                        },
+                        {
+                            "le": 229376,
+                            "count": 25933
+                        },
+                        {
+                            "le": 262144,
+                            "count": 25933
+                        },
+                        {
+                            "le": 327680,
+                            "count": 25933
+                        },
+                        {
+                            "le": 393216,
+                            "count": 25934
+                        },
+                        {
+                            "le": 458752,
+                            "count": 25934
+                        },
+                        {
+                            "le": 524288,
+                            "count": 25934
+                        },
+                        {
+                            "le": 655360,
+                            "count": 25934
+                        },
+                        {
+                            "le": 786432,
+                            "count": 25934
+                        },
+                        {
+                            "le": 917504,
+                            "count": 25934
+                        },
+                        {
+                            "le": 1048576,
+                            "count": 25934
+                        },
+                        {
+                            "le": 1310720,
+                            "count": 25934
+                        },
+                        {
+                            "le": 1572864,
+                            "count": 25934
+                        },
+                        {
+                            "le": 1835008,
+                            "count": 25934
+                        },
+                        {
+                            "le": 2097152,
+                            "count": 25934
+                        },
+                        {
+                            "le": 2621440,
+                            "count": 25934
+                        },
+                        {
+                            "le": 3145728,
+                            "count": 25934
+                        },
+                        {
+                            "le": 3670016,
+                            "count": 25934
+                        },
+                        {
+                            "le": 4194304,
+                            "count": 25934
+                        },
+                        {
+                            "le": 5242880,
+                            "count": 25934
+                        },
+                        {
+                            "le": 6291456,
+                            "count": 25934
+                        },
+                        {
+                            "le": 7340032,
+                            "count": 25934
+                        },
+                        {
+                            "le": 8388608,
+                            "count": 25934
+                        },
+                        {
+                            "le": 10485760,
+                            "count": 25934
+                        },
+                        {
+                            "le": 12582912,
+                            "count": 25934
+                        },
+                        {
+                            "le": 14680064,
+                            "count": 25934
+                        },
+                        {
+                            "le": 16777216,
+                            "count": 25934
+                        },
+                        {
+                            "le": 20971520,
+                            "count": 25934
+                        },
+                        {
+                            "le": 25165824,
+                            "count": 25934
+                        },
+                        {
+                            "le": 29360128,
+                            "count": 25934
+                        },
+                        {
+                            "le": 33554432,
+                            "count": 25934
+                        },
+                        {
+                            "le": "+Inf",
+                            "count": 25934
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "reactor_tasks_pending": {
+                "shard": "2",
+                "value": 1
+            }
+        },
+        {
+            "reactor_tasks_processed": {
+                "shard": "2",
+                "value": 2969145
+            }
+        },
+        {
+            "reactor_timers_pending": {
+                "shard": "2",
+                "value": 0
+            }
+        },
+        {
+            "reactor_utilization": {
+                "shard": "2",
+                "value": 7.4732146799999954
+            }
+        },
+        {
+            "scheduler_queue_length": {
+                "group": "atexit",
+                "shard": "2",
+                "value": 0
+            }
+        },
+        {
+            "scheduler_queue_length": {
+                "group": "main",
+                "shard": "2",
+                "value": 1
+            }
+        },
+        {
+            "scheduler_runtime_ms": {
+                "group": "atexit",
+                "shard": "2",
+                "value": 0
+            }
+        },
+        {
+            "scheduler_runtime_ms": {
+                "group": "main",
+                "shard": "2",
+                "value": 83862
+            }
+        },
+        {
+            "scheduler_shares": {
+                "group": "atexit",
+                "shard": "2",
+                "value": 1000
+            }
+        },
+        {
+            "scheduler_shares": {
+                "group": "main",
+                "shard": "2",
+                "value": 1000
+            }
+        },
+        {
+            "scheduler_starvetime_ms": {
+                "group": "atexit",
+                "shard": "2",
+                "value": 0
+            }
+        },
+        {
+            "scheduler_starvetime_ms": {
+                "group": "main",
+                "shard": "2",
+                "value": 967
+            }
+        },
+        {
+            "scheduler_tasks_processed": {
+                "group": "atexit",
+                "shard": "2",
+                "value": 0
+            }
+        },
+        {
+            "scheduler_tasks_processed": {
+                "group": "main",
+                "shard": "2",
+                "value": 2969145
+            }
+        },
+        {
+            "scheduler_time_spent_on_task_quota_violations_ms": {
+                "group": "atexit",
+                "shard": "2",
+                "value": 0
+            }
+        },
+        {
+            "scheduler_time_spent_on_task_quota_violations_ms": {
+                "group": "main",
+                "shard": "2",
+                "value": 29695
+            }
+        },
+        {
+            "scheduler_waittime_ms": {
+                "group": "atexit",
+                "shard": "2",
+                "value": 0
+            }
+        },
+        {
+            "scheduler_waittime_ms": {
+                "group": "main",
+                "shard": "2",
+                "value": 2942195
+            }
+        },
+        {
+            "seastore_concurrent_transactions": {
+                "shard": "2",
+                "value": 0
+            }
+        },
+        {
+            "seastore_op_lat": {
+                "latency": "DO_TRANSACTION",
+                "shard": "2",
+                "value": {
+                    "sum": 73350,
+                    "count": 12305,
+                    "buckets": [
+                        {
+                            "le": "+Inf",
+                            "count": 12305
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "seastore_op_lat": {
+                "latency": "GET_ATTR",
+                "shard": "2",
+                "value": {
+                    "sum": 0,
+                    "count": 0,
+                    "buckets": [
+                        {
+                            "le": "+Inf",
+                            "count": 0
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "seastore_op_lat": {
+                "latency": "GET_ATTRS",
+                "shard": "2",
+                "value": {
+                    "sum": 0,
+                    "count": 0,
+                    "buckets": [
+                        {
+                            "le": "+Inf",
+                            "count": 0
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "seastore_op_lat": {
+                "latency": "OMAP_GET_VALUES",
+                "shard": "2",
+                "value": {
+                    "sum": 0,
+                    "count": 0,
+                    "buckets": [
+                        {
+                            "le": "+Inf",
+                            "count": 0
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "seastore_op_lat": {
+                "latency": "OMAP_GET_VALUES2",
+                "shard": "2",
+                "value": {
+                    "sum": 0,
+                    "count": 0,
+                    "buckets": [
+                        {
+                            "le": "+Inf",
+                            "count": 0
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "seastore_op_lat": {
+                "latency": "READ",
+                "shard": "2",
+                "value": {
+                    "sum": 0,
+                    "count": 0,
+                    "buckets": [
+                        {
+                            "le": "+Inf",
+                            "count": 0
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "seastore_op_lat": {
+                "latency": "STAT",
+                "shard": "2",
+                "value": {
+                    "sum": 0,
+                    "count": 0,
+                    "buckets": [
+                        {
+                            "le": "+Inf",
+                            "count": 0
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "seastore_op_lat": {
+                "latency": "WRITE",
+                "shard": "2",
+                "value": {
+                    "sum": 0,
+                    "count": 0,
+                    "buckets": [
+                        {
+                            "le": "+Inf",
+                            "count": 0
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "seastore_pending_transactions": {
+                "shard": "2",
+                "value": 0
+            }
+        },
+        {
+            "segment_cleaner_available_bytes": {
+                "shard": "2",
+                "value": 1942542770176
+            }
+        },
+        {
+            "segment_cleaner_available_ratio": {
+                "shard": "2",
+                "value": 0.9710863843376254
+            }
+        },
+        {
+            "segment_cleaner_closed_journal_total_bytes": {
+                "shard": "2",
+                "value": 939524096
+            }
+        },
+        {
+            "segment_cleaner_closed_journal_used_bytes": {
+                "shard": "2",
+                "value": 835903488
+            }
+        },
+        {
+            "segment_cleaner_closed_ool_total_bytes": {
+                "shard": "2",
+                "value": 54492397568
+            }
+        },
+        {
+            "segment_cleaner_closed_ool_used_bytes": {
+                "shard": "2",
+                "value": 50826575872
+            }
+        },
+        {
+            "segment_cleaner_projected_count": {
+                "shard": "2",
+                "value": 22969
+            }
+        },
+        {
+            "segment_cleaner_projected_used_bytes_sum": {
+                "shard": "2",
+                "value": 237412564992
+            }
+        },
+        {
+            "segment_cleaner_reclaim_ratio": {
+                "shard": "2",
+                "value": 0.1053085598087229
+            }
+        },
+        {
+            "segment_cleaner_reclaimed_bytes": {
+                "shard": "2",
+                "value": 0
+            }
+        },
+        {
+            "segment_cleaner_reclaimed_segment_bytes": {
+                "shard": "2",
+                "value": 0
+            }
+        },
+        {
+            "segment_cleaner_segment_size": {
+                "shard": "2",
+                "value": 67108864
+            }
+        },
+        {
+            "segment_cleaner_segment_utilization_distribution": {
+                "shard": "2",
+                "value": {
+                    "sum": 0,
+                    "count": 0,
+                    "buckets": [
+                        {
+                            "le": 0.10000000000000001,
+                            "count": 35
+                        },
+                        {
+                            "le": 0.20000000000000001,
+                            "count": 0
+                        },
+                        {
+                            "le": 0.29999999999999999,
+                            "count": 0
+                        },
+                        {
+                            "le": 0.40000000000000002,
+                            "count": 0
+                        },
+                        {
+                            "le": 0.5,
+                            "count": 0
+                        },
+                        {
+                            "le": 0.59999999999999998,
+                            "count": 0
+                        },
+                        {
+                            "le": 0.69999999999999996,
+                            "count": 0
+                        },
+                        {
+                            "le": 0.80000000000000004,
+                            "count": 0
+                        },
+                        {
+                            "le": 0.90000000000000002,
+                            "count": 58
+                        },
+                        {
+                            "le": 1,
+                            "count": 768
+                        },
+                        {
+                            "le": 1.1000000000000001,
+                            "count": 7
+                        },
+                        {
+                            "le": 1.2,
+                            "count": 28940
+                        },
+                        {
+                            "le": "+Inf",
+                            "count": 0
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "segment_cleaner_segments_closed": {
+                "shard": "2",
+                "value": 861
+            }
+        },
+        {
+            "segment_cleaner_segments_count_close_journal": {
+                "shard": "2",
+                "value": 14
+            }
+        },
+        {
+            "segment_cleaner_segments_count_close_ool": {
+                "shard": "2",
+                "value": 812
+            }
+        },
+        {
+            "segment_cleaner_segments_count_open_journal": {
+                "shard": "2",
+                "value": 15
+            }
+        },
+        {
+            "segment_cleaner_segments_count_open_ool": {
+                "shard": "2",
+                "value": 818
+            }
+        },
+        {
+            "segment_cleaner_segments_count_release_journal": {
+                "shard": "2",
+                "value": 0
+            }
+        },
+        {
+            "segment_cleaner_segments_count_release_ool": {
+                "shard": "2",
+                "value": 0
+            }
+        },
+        {
+            "segment_cleaner_segments_empty": {
+                "shard": "2",
+                "value": 28940
+            }
+        },
+        {
+            "segment_cleaner_segments_in_journal": {
+                "shard": "2",
+                "value": 3
+            }
+        },
+        {
+            "segment_cleaner_segments_number": {
+                "shard": "2",
+                "value": 29808
+            }
+        },
+        {
+            "segment_cleaner_segments_open": {
+                "shard": "2",
+                "value": 7
+            }
+        },
+        {
+            "segment_cleaner_segments_type_journal": {
+                "shard": "2",
+                "value": 20
+            }
+        },
+        {
+            "segment_cleaner_segments_type_ool": {
+                "shard": "2",
+                "value": 848
+            }
+        },
+        {
+            "segment_cleaner_total_bytes": {
+                "shard": "2",
+                "value": 2000381018112
+            }
+        },
+        {
+            "segment_cleaner_unavailable_reclaimable_bytes": {
+                "shard": "2",
+                "value": 57646514176
+            }
+        },
+        {
+            "segment_cleaner_unavailable_unreclaimable_bytes": {
+                "shard": "2",
+                "value": 191733760
+            }
+        },
+        {
+            "segment_cleaner_unavailable_unused_bytes": {
+                "shard": "2",
+                "value": 6090862592
+            }
+        },
+        {
+            "segment_cleaner_used_bytes": {
+                "shard": "2",
+                "value": 51747385344
+            }
+        },
+        {
+            "segment_manager_closed_segments": {
+                "device_id": "0",
+                "shard": "2",
+                "value": 826
+            }
+        },
+        {
+            "segment_manager_closed_segments_unused_bytes": {
+                "device_id": "0",
+                "shard": "2",
+                "value": 0
+            }
+        },
+        {
+            "segment_manager_data_read_bytes": {
+                "device_id": "0",
+                "shard": "2",
+                "value": 57114624
+            }
+        },
+        {
+            "segment_manager_data_read_num": {
+                "device_id": "0",
+                "shard": "2",
+                "value": 5106
+            }
+        },
+        {
+            "segment_manager_data_write_bytes": {
+                "device_id": "0",
+                "shard": "2",
+                "value": 52089704448
+            }
+        },
+        {
+            "segment_manager_data_write_num": {
+                "device_id": "0",
+                "shard": "2",
+                "value": 38696
+            }
+        },
+        {
+            "segment_manager_metadata_write_bytes": {
+                "device_id": "0",
+                "shard": "2",
+                "value": 54362112
+            }
+        },
+        {
+            "segment_manager_metadata_write_num": {
+                "device_id": "0",
+                "shard": "2",
+                "value": 1659
+            }
+        },
+        {
+            "segment_manager_opened_segments": {
+                "device_id": "0",
+                "shard": "2",
+                "value": 833
+            }
+        },
+        {
+            "segment_manager_released_segments": {
+                "device_id": "0",
+                "shard": "2",
+                "value": 0
+            }
+        },
+        {
+            "stall_detector_reported": {
+                "shard": "2",
+                "value": 3
+            }
+        },
+        {
+            "LBA_alloc_extents": {
+                "shard": "3",
+                "value": 50789
+            }
+        },
+        {
+            "LBA_alloc_extents_iter_nexts": {
+                "shard": "3",
+                "value": 52393
+            }
+        },
+        {
+            "alien_receive_batch_queue_length": {
+                "shard": "3",
+                "value": 0
+            }
+        },
+        {
+            "alien_total_received_messages": {
+                "shard": "3",
+                "value": 0
+            }
+        },
+        {
+            "alien_total_sent_messages": {
+                "shard": "3",
+                "value": 0
+            }
+        },
+        {
+            "background_process_io_blocked_count": {
+                "shard": "3",
+                "value": 0
+            }
+        },
+        {
+            "background_process_io_blocked_count_clean": {
+                "shard": "3",
+                "value": 0
+            }
+        },
+        {
+            "background_process_io_blocked_count_trim": {
+                "shard": "3",
+                "value": 0
+            }
+        },
+        {
+            "background_process_io_blocked_sum": {
+                "shard": "3",
+                "value": 0
+            }
+        },
+        {
+            "background_process_io_count": {
+                "shard": "3",
+                "value": 12521
+            }
+        },
+        {
+            "io_queue_activations": {
+                "class": "main",
+                "iogroup": "0",
+                "mountpoint": "none",
+                "shard": "3",
+                "stream": "rw",
+                "value": 45805
+            }
+        },
+        {
+            "io_queue_adjusted_consumption": {
+                "class": "main",
+                "iogroup": "0",
+                "mountpoint": "none",
+                "shard": "3",
+                "stream": "rw",
+                "value": 0.0061676053404808046
+            }
+        },
+        {
+            "io_queue_consumption": {
+                "class": "main",
+                "iogroup": "0",
+                "mountpoint": "none",
+                "shard": "3",
+                "stream": "rw",
+                "value": 6.1676055818796156
+            }
+        },
+        {
+            "io_queue_delay": {
+                "class": "main",
+                "iogroup": "0",
+                "mountpoint": "none",
+                "shard": "3",
+                "value": 3.1659999999999998e-06
+            }
+        },
+        {
+            "io_queue_disk_queue_length": {
+                "class": "main",
+                "iogroup": "0",
+                "mountpoint": "none",
+                "shard": "3",
+                "value": 0
+            }
+        },
+        {
+            "io_queue_flow_ratio": {
+                "iogroup": "0",
+                "mountpoint": "none",
+                "shard": "3",
+                "value": 0.98767319654796715
+            }
+        },
+        {
+            "io_queue_queue_length": {
+                "class": "main",
+                "iogroup": "0",
+                "mountpoint": "none",
+                "shard": "3",
+                "value": 0
+            }
+        },
+        {
+            "io_queue_shares": {
+                "class": "main",
+                "iogroup": "0",
+                "mountpoint": "none",
+                "shard": "3",
+                "value": 1000
+            }
+        },
+        {
+            "io_queue_starvation_time_sec": {
+                "class": "main",
+                "iogroup": "0",
+                "mountpoint": "none",
+                "shard": "3",
+                "value": 2.7043223679999948
+            }
+        },
+        {
+            "io_queue_total_bytes": {
+                "class": "main",
+                "iogroup": "0",
+                "mountpoint": "none",
+                "shard": "3",
+                "value": 52955643904
+            }
+        },
+        {
+            "io_queue_total_delay_sec": {
+                "class": "main",
+                "iogroup": "0",
+                "mountpoint": "none",
+                "shard": "3",
+                "value": 2.8792760870000049
+            }
+        },
+        {
+            "io_queue_total_exec_sec": {
+                "class": "main",
+                "iogroup": "0",
+                "mountpoint": "none",
+                "shard": "3",
+                "value": 26.79488687700028
+            }
+        },
+        {
+            "io_queue_total_operations": {
+                "class": "main",
+                "iogroup": "0",
+                "mountpoint": "none",
+                "shard": "3",
+                "value": 46226
+            }
+        },
+        {
+            "io_queue_total_read_bytes": {
+                "class": "main",
+                "iogroup": "0",
+                "mountpoint": "none",
+                "shard": "3",
+                "value": 59269120
+            }
+        },
+        {
+            "io_queue_total_read_ops": {
+                "class": "main",
+                "iogroup": "0",
+                "mountpoint": "none",
+                "shard": "3",
+                "value": 5312
+            }
+        },
+        {
+            "io_queue_total_split_bytes": {
+                "class": "main",
+                "iogroup": "0",
+                "mountpoint": "none",
+                "shard": "3",
+                "value": 0
+            }
+        },
+        {
+            "io_queue_total_split_ops": {
+                "class": "main",
+                "iogroup": "0",
+                "mountpoint": "none",
+                "shard": "3",
+                "value": 0
+            }
+        },
+        {
+            "io_queue_total_write_bytes": {
+                "class": "main",
+                "iogroup": "0",
+                "mountpoint": "none",
+                "shard": "3",
+                "value": 52896374784
+            }
+        },
+        {
+            "io_queue_total_write_ops": {
+                "class": "main",
+                "iogroup": "0",
+                "mountpoint": "none",
+                "shard": "3",
+                "value": 40914
+            }
+        },
+        {
+            "journal_io_depth_num": {
+                "shard": "3",
+                "submitter": "Dev(0x0)_DATA_G2",
+                "value": 12659
+            }
+        },
+        {
+            "journal_io_depth_num": {
+                "shard": "3",
+                "submitter": "Dev(0x0)_DATA_G3",
+                "value": 0
+            }
+        },
+        {
+            "journal_io_depth_num": {
+                "shard": "3",
+                "submitter": "Dev(0x0)_DATA_G4",
+                "value": 0
+            }
+        },
+        {
+            "journal_io_depth_num": {
+                "shard": "3",
+                "submitter": "Dev(0x0)_MD_G1",
+                "value": 25482
+            }
+        },
+        {
+            "journal_io_depth_num": {
+                "shard": "3",
+                "submitter": "Dev(0x0)_MD_G2",
+                "value": 0
+            }
+        },
+        {
+            "journal_io_depth_num": {
+                "shard": "3",
+                "submitter": "Dev(0x0)_MD_G3",
+                "value": 0
+            }
+        },
+        {
+            "journal_io_depth_num": {
+                "shard": "3",
+                "submitter": "Dev(0x0)_MD_G4",
+                "value": 0
+            }
+        },
+        {
+            "journal_io_num": {
+                "shard": "3",
+                "submitter": "Dev(0x0)_DATA_G2",
+                "value": 12368
+            }
+        },
+        {
+            "journal_io_num": {
+                "shard": "3",
+                "submitter": "Dev(0x0)_DATA_G3",
+                "value": 0
+            }
+        },
+        {
+            "journal_io_num": {
+                "shard": "3",
+                "submitter": "Dev(0x0)_DATA_G4",
+                "value": 0
+            }
+        },
+        {
+            "journal_io_num": {
+                "shard": "3",
+                "submitter": "Dev(0x0)_MD_G1",
+                "value": 25179
+            }
+        },
+        {
+            "journal_io_num": {
+                "shard": "3",
+                "submitter": "Dev(0x0)_MD_G2",
+                "value": 0
+            }
+        },
+        {
+            "journal_io_num": {
+                "shard": "3",
+                "submitter": "Dev(0x0)_MD_G3",
+                "value": 0
+            }
+        },
+        {
+            "journal_io_num": {
+                "shard": "3",
+                "submitter": "Dev(0x0)_MD_G4",
+                "value": 0
+            }
+        },
+        {
+            "journal_record_group_data_bytes": {
+                "shard": "3",
+                "submitter": "Dev(0x0)_DATA_G2",
+                "value": 51875151872
+            }
+        },
+        {
+            "journal_record_group_data_bytes": {
+                "shard": "3",
+                "submitter": "Dev(0x0)_DATA_G3",
+                "value": 0
+            }
+        },
+        {
+            "journal_record_group_data_bytes": {
+                "shard": "3",
+                "submitter": "Dev(0x0)_DATA_G4",
+                "value": 0
+            }
+        },
+        {
+            "journal_record_group_data_bytes": {
+                "shard": "3",
+                "submitter": "Dev(0x0)_MD_G1",
+                "value": 856006656
+            }
+        },
+        {
+            "journal_record_group_data_bytes": {
+                "shard": "3",
+                "submitter": "Dev(0x0)_MD_G2",
+                "value": 0
+            }
+        },
+        {
+            "journal_record_group_data_bytes": {
+                "shard": "3",
+                "submitter": "Dev(0x0)_MD_G3",
+                "value": 0
+            }
+        },
+        {
+            "journal_record_group_data_bytes": {
+                "shard": "3",
+                "submitter": "Dev(0x0)_MD_G4",
+                "value": 0
+            }
+        },
+        {
+            "journal_record_group_metadata_bytes": {
+                "shard": "3",
+                "submitter": "Dev(0x0)_DATA_G2",
+                "value": 0
+            }
+        },
+        {
+            "journal_record_group_metadata_bytes": {
+                "shard": "3",
+                "submitter": "Dev(0x0)_DATA_G3",
+                "value": 0
+            }
+        },
+        {
+            "journal_record_group_metadata_bytes": {
+                "shard": "3",
+                "submitter": "Dev(0x0)_DATA_G4",
+                "value": 0
+            }
+        },
+        {
+            "journal_record_group_metadata_bytes": {
+                "shard": "3",
+                "submitter": "Dev(0x0)_MD_G1",
+                "value": 26350568
+            }
+        },
+        {
+            "journal_record_group_metadata_bytes": {
+                "shard": "3",
+                "submitter": "Dev(0x0)_MD_G2",
+                "value": 0
+            }
+        },
+        {
+            "journal_record_group_metadata_bytes": {
+                "shard": "3",
+                "submitter": "Dev(0x0)_MD_G3",
+                "value": 0
+            }
+        },
+        {
+            "journal_record_group_metadata_bytes": {
+                "shard": "3",
+                "submitter": "Dev(0x0)_MD_G4",
+                "value": 0
+            }
+        },
+        {
+            "journal_record_group_padding_bytes": {
+                "shard": "3",
+                "submitter": "Dev(0x0)_DATA_G2",
+                "value": 0
+            }
+        },
+        {
+            "journal_record_group_padding_bytes": {
+                "shard": "3",
+                "submitter": "Dev(0x0)_DATA_G3",
+                "value": 0
+            }
+        },
+        {
+            "journal_record_group_padding_bytes": {
+                "shard": "3",
+                "submitter": "Dev(0x0)_DATA_G4",
+                "value": 0
+            }
+        },
+        {
+            "journal_record_group_padding_bytes": {
+                "shard": "3",
+                "submitter": "Dev(0x0)_MD_G1",
+                "value": 76790808
+            }
+        },
+        {
+            "journal_record_group_padding_bytes": {
+                "shard": "3",
+                "submitter": "Dev(0x0)_MD_G2",
+                "value": 0
+            }
+        },
+        {
+            "journal_record_group_padding_bytes": {
+                "shard": "3",
+                "submitter": "Dev(0x0)_MD_G3",
+                "value": 0
+            }
+        },
+        {
+            "journal_record_group_padding_bytes": {
+                "shard": "3",
+                "submitter": "Dev(0x0)_MD_G4",
+                "value": 0
+            }
+        },
+        {
+            "journal_record_num": {
+                "shard": "3",
+                "submitter": "Dev(0x0)_DATA_G2",
+                "value": 12368
+            }
+        },
+        {
+            "journal_record_num": {
+                "shard": "3",
+                "submitter": "Dev(0x0)_DATA_G3",
+                "value": 0
+            }
+        },
+        {
+            "journal_record_num": {
+                "shard": "3",
+                "submitter": "Dev(0x0)_DATA_G4",
+                "value": 0
+            }
+        },
+        {
+            "journal_record_num": {
+                "shard": "3",
+                "submitter": "Dev(0x0)_MD_G1",
+                "value": 25255
+            }
+        },
+        {
+            "journal_record_num": {
+                "shard": "3",
+                "submitter": "Dev(0x0)_MD_G2",
+                "value": 0
+            }
+        },
+        {
+            "journal_record_num": {
+                "shard": "3",
+                "submitter": "Dev(0x0)_MD_G3",
+                "value": 0
+            }
+        },
+        {
+            "journal_record_num": {
+                "shard": "3",
+                "submitter": "Dev(0x0)_MD_G4",
+                "value": 0
+            }
+        },
+        {
+            "journal_trimmer_alloc_journal_bytes": {
+                "shard": "3",
+                "value": 134164480
+            }
+        },
+        {
+            "journal_trimmer_dirty_journal_bytes": {
+                "shard": "3",
+                "value": 133931008
+            }
+        },
+        {
+            "memory_allocated_memory": {
+                "shard": "3",
+                "value": 1320849408
+            }
+        },
+        {
+            "memory_cross_cpu_free_operations": {
+                "shard": "3",
+                "value": 141415
+            }
+        },
+        {
+            "memory_free_memory": {
+                "shard": "3",
+                "value": 67398627328
+            }
+        },
+        {
+            "memory_free_operations": {
+                "shard": "3",
+                "value": 13509398
+            }
+        },
+        {
+            "memory_malloc_failed": {
+                "shard": "3",
+                "value": 0
+            }
+        },
+        {
+            "memory_malloc_live_objects": {
+                "shard": "3",
+                "value": 128435
+            }
+        },
+        {
+            "memory_malloc_operations": {
+                "shard": "3",
+                "value": 13637833
+            }
+        },
+        {
+            "memory_reclaims_operations": {
+                "shard": "3",
+                "value": 0
+            }
+        },
+        {
+            "memory_total_memory": {
+                "shard": "3",
+                "value": 68719476736
+            }
+        },
+        {
+            "network_bytes_received": {
+                "group": "atexit",
+                "shard": "3",
+                "value": 0
+            }
+        },
+        {
+            "network_bytes_received": {
+                "group": "main",
+                "shard": "3",
+                "value": 31196753297
+            }
+        },
+        {
+            "network_bytes_sent": {
+                "group": "atexit",
+                "shard": "3",
+                "value": 0
+            }
+        },
+        {
+            "network_bytes_sent": {
+                "group": "main",
+                "shard": "3",
+                "value": 3506790122
+            }
+        },
+        {
+            "reactor_abandoned_failed_futures": {
+                "shard": "3",
+                "value": 0
+            }
+        },
+        {
+            "reactor_aio_bytes_read": {
+                "shard": "3",
+                "value": 59269120
+            }
+        },
+        {
+            "reactor_aio_bytes_write": {
+                "shard": "3",
+                "value": 52896374784
+            }
+        },
+        {
+            "reactor_aio_errors": {
+                "shard": "3",
+                "value": 0
+            }
+        },
+        {
+            "reactor_aio_outsizes": {
+                "shard": "3",
+                "value": 0
+            }
+        },
+        {
+            "reactor_aio_reads": {
+                "shard": "3",
+                "value": 5312
+            }
+        },
+        {
+            "reactor_aio_writes": {
+                "shard": "3",
+                "value": 40914
+            }
+        },
+        {
+            "reactor_awake_time_ms_total": {
+                "shard": "3",
+                "value": 176694
+            }
+        },
+        {
+            "reactor_cpp_exceptions": {
+                "shard": "3",
+                "value": 67
+            }
+        },
+        {
+            "reactor_cpu_busy_ms": {
+                "shard": "3",
+                "value": 133960
+            }
+        },
+        {
+            "reactor_cpu_steal_time_ms": {
+                "shard": "3",
+                "value": 2010
+            }
+        },
+        {
+            "reactor_cpu_used_time_ms": {
+                "shard": "3",
+                "value": 174683
+            }
+        },
+        {
+            "reactor_fstream_read_bytes": {
+                "shard": "3",
+                "value": 0
+            }
+        },
+        {
+            "reactor_fstream_read_bytes_blocked": {
+                "shard": "3",
+                "value": 0
+            }
+        },
+        {
+            "reactor_fstream_reads": {
+                "shard": "3",
+                "value": 0
+            }
+        },
+        {
+            "reactor_fstream_reads_ahead_bytes_discarded": {
+                "shard": "3",
+                "value": 0
+            }
+        },
+        {
+            "reactor_fstream_reads_aheads_discarded": {
+                "shard": "3",
+                "value": 0
+            }
+        },
+        {
+            "reactor_fstream_reads_blocked": {
+                "shard": "3",
+                "value": 0
+            }
+        },
+        {
+            "reactor_fsyncs": {
+                "shard": "3",
+                "value": 0
+            }
+        },
+        {
+            "reactor_io_threaded_fallbacks": {
+                "shard": "3",
+                "value": 3
+            }
+        },
+        {
+            "reactor_logging_failures": {
+                "shard": "3",
+                "value": 0
+            }
+        },
+        {
+            "reactor_polls": {
+                "shard": "3",
+                "value": 68021784
+            }
+        },
+        {
+            "reactor_sleep_time_ms_total": {
+                "shard": "3",
+                "value": 2850003
+            }
+        },
+        {
+            "reactor_stalls": {
+                "shard": "3",
+                "value": {
+                    "sum": 67202048,
+                    "count": 28020,
+                    "buckets": [
+                        {
+                            "le": 640,
+                            "count": 0
+                        },
+                        {
+                            "le": 768,
+                            "count": 0
+                        },
+                        {
+                            "le": 896,
+                            "count": 0
+                        },
+                        {
+                            "le": 1024,
+                            "count": 802
+                        },
+                        {
+                            "le": 1280,
+                            "count": 7031
+                        },
+                        {
+                            "le": 1536,
+                            "count": 11316
+                        },
+                        {
+                            "le": 1792,
+                            "count": 14569
+                        },
+                        {
+                            "le": 2048,
+                            "count": 17070
+                        },
+                        {
+                            "le": 2560,
+                            "count": 20817
+                        },
+                        {
+                            "le": 3072,
+                            "count": 23241
+                        },
+                        {
+                            "le": 3584,
+                            "count": 24841
+                        },
+                        {
+                            "le": 4096,
+                            "count": 25826
+                        },
+                        {
+                            "le": 5120,
+                            "count": 26979
+                        },
+                        {
+                            "le": 6144,
+                            "count": 27544
+                        },
+                        {
+                            "le": 7168,
+                            "count": 27796
+                        },
+                        {
+                            "le": 8192,
+                            "count": 27922
+                        },
+                        {
+                            "le": 10240,
+                            "count": 27997
+                        },
+                        {
+                            "le": 12288,
+                            "count": 28015
+                        },
+                        {
+                            "le": 14336,
+                            "count": 28017
+                        },
+                        {
+                            "le": 16384,
+                            "count": 28018
+                        },
+                        {
+                            "le": 20480,
+                            "count": 28018
+                        },
+                        {
+                            "le": 24576,
+                            "count": 28018
+                        },
+                        {
+                            "le": 28672,
+                            "count": 28018
+                        },
+                        {
+                            "le": 32768,
+                            "count": 28019
+                        },
+                        {
+                            "le": 40960,
+                            "count": 28019
+                        },
+                        {
+                            "le": 49152,
+                            "count": 28019
+                        },
+                        {
+                            "le": 57344,
+                            "count": 28019
+                        },
+                        {
+                            "le": 65536,
+                            "count": 28019
+                        },
+                        {
+                            "le": 81920,
+                            "count": 28019
+                        },
+                        {
+                            "le": 98304,
+                            "count": 28019
+                        },
+                        {
+                            "le": 114688,
+                            "count": 28019
+                        },
+                        {
+                            "le": 131072,
+                            "count": 28019
+                        },
+                        {
+                            "le": 163840,
+                            "count": 28019
+                        },
+                        {
+                            "le": 196608,
+                            "count": 28019
+                        },
+                        {
+                            "le": 229376,
+                            "count": 28019
+                        },
+                        {
+                            "le": 262144,
+                            "count": 28019
+                        },
+                        {
+                            "le": 327680,
+                            "count": 28019
+                        },
+                        {
+                            "le": 393216,
+                            "count": 28019
+                        },
+                        {
+                            "le": 458752,
+                            "count": 28019
+                        },
+                        {
+                            "le": 524288,
+                            "count": 28019
+                        },
+                        {
+                            "le": 655360,
+                            "count": 28019
+                        },
+                        {
+                            "le": 786432,
+                            "count": 28020
+                        },
+                        {
+                            "le": 917504,
+                            "count": 28020
+                        },
+                        {
+                            "le": 1048576,
+                            "count": 28020
+                        },
+                        {
+                            "le": 1310720,
+                            "count": 28020
+                        },
+                        {
+                            "le": 1572864,
+                            "count": 28020
+                        },
+                        {
+                            "le": 1835008,
+                            "count": 28020
+                        },
+                        {
+                            "le": 2097152,
+                            "count": 28020
+                        },
+                        {
+                            "le": 2621440,
+                            "count": 28020
+                        },
+                        {
+                            "le": 3145728,
+                            "count": 28020
+                        },
+                        {
+                            "le": 3670016,
+                            "count": 28020
+                        },
+                        {
+                            "le": 4194304,
+                            "count": 28020
+                        },
+                        {
+                            "le": 5242880,
+                            "count": 28020
+                        },
+                        {
+                            "le": 6291456,
+                            "count": 28020
+                        },
+                        {
+                            "le": 7340032,
+                            "count": 28020
+                        },
+                        {
+                            "le": 8388608,
+                            "count": 28020
+                        },
+                        {
+                            "le": 10485760,
+                            "count": 28020
+                        },
+                        {
+                            "le": 12582912,
+                            "count": 28020
+                        },
+                        {
+                            "le": 14680064,
+                            "count": 28020
+                        },
+                        {
+                            "le": 16777216,
+                            "count": 28020
+                        },
+                        {
+                            "le": 20971520,
+                            "count": 28020
+                        },
+                        {
+                            "le": 25165824,
+                            "count": 28020
+                        },
+                        {
+                            "le": 29360128,
+                            "count": 28020
+                        },
+                        {
+                            "le": 33554432,
+                            "count": 28020
+                        },
+                        {
+                            "le": "+Inf",
+                            "count": 28020
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "reactor_tasks_pending": {
+                "shard": "3",
+                "value": 0
+            }
+        },
+        {
+            "reactor_tasks_processed": {
+                "shard": "3",
+                "value": 2446911
+            }
+        },
+        {
+            "reactor_timers_pending": {
+                "shard": "3",
+                "value": 0
+            }
+        },
+        {
+            "reactor_utilization": {
+                "shard": "3",
+                "value": 9.1549198600001667
+            }
+        },
+        {
+            "scheduler_queue_length": {
+                "group": "atexit",
+                "shard": "3",
+                "value": 0
+            }
+        },
+        {
+            "scheduler_queue_length": {
+                "group": "main",
+                "shard": "3",
+                "value": 0
+            }
+        },
+        {
+            "scheduler_runtime_ms": {
+                "group": "atexit",
+                "shard": "3",
+                "value": 0
+            }
+        },
+        {
+            "scheduler_runtime_ms": {
+                "group": "main",
+                "shard": "3",
+                "value": 128227
+            }
+        },
+        {
+            "scheduler_shares": {
+                "group": "atexit",
+                "shard": "3",
+                "value": 1000
+            }
+        },
+        {
+            "scheduler_shares": {
+                "group": "main",
+                "shard": "3",
+                "value": 1000
+            }
+        },
+        {
+            "scheduler_starvetime_ms": {
+                "group": "atexit",
+                "shard": "3",
+                "value": 0
+            }
+        },
+        {
+            "scheduler_starvetime_ms": {
+                "group": "main",
+                "shard": "3",
+                "value": 1897
+            }
+        },
+        {
+            "scheduler_tasks_processed": {
+                "group": "atexit",
+                "shard": "3",
+                "value": 0
+            }
+        },
+        {
+            "scheduler_tasks_processed": {
+                "group": "main",
+                "shard": "3",
+                "value": 2446911
+            }
+        },
+        {
+            "scheduler_time_spent_on_task_quota_violations_ms": {
+                "group": "atexit",
+                "shard": "3",
+                "value": 0
+            }
+        },
+        {
+            "scheduler_time_spent_on_task_quota_violations_ms": {
+                "group": "main",
+                "shard": "3",
+                "value": 47121
+            }
+        },
+        {
+            "scheduler_waittime_ms": {
+                "group": "atexit",
+                "shard": "3",
+                "value": 0
+            }
+        },
+        {
+            "scheduler_waittime_ms": {
+                "group": "main",
+                "shard": "3",
+                "value": 2896564
+            }
+        },
+        {
+            "seastore_concurrent_transactions": {
+                "shard": "3",
+                "value": 0
+            }
+        },
+        {
+            "seastore_op_lat": {
+                "latency": "DO_TRANSACTION",
+                "shard": "3",
+                "value": {
+                    "sum": 98252,
+                    "count": 12454,
+                    "buckets": [
+                        {
+                            "le": "+Inf",
+                            "count": 12454
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "seastore_op_lat": {
+                "latency": "GET_ATTR",
+                "shard": "3",
+                "value": {
+                    "sum": 0,
+                    "count": 0,
+                    "buckets": [
+                        {
+                            "le": "+Inf",
+                            "count": 0
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "seastore_op_lat": {
+                "latency": "GET_ATTRS",
+                "shard": "3",
+                "value": {
+                    "sum": 0,
+                    "count": 0,
+                    "buckets": [
+                        {
+                            "le": "+Inf",
+                            "count": 0
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "seastore_op_lat": {
+                "latency": "OMAP_GET_VALUES",
+                "shard": "3",
+                "value": {
+                    "sum": 0,
+                    "count": 0,
+                    "buckets": [
+                        {
+                            "le": "+Inf",
+                            "count": 0
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "seastore_op_lat": {
+                "latency": "OMAP_GET_VALUES2",
+                "shard": "3",
+                "value": {
+                    "sum": 0,
+                    "count": 0,
+                    "buckets": [
+                        {
+                            "le": "+Inf",
+                            "count": 0
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "seastore_op_lat": {
+                "latency": "READ",
+                "shard": "3",
+                "value": {
+                    "sum": 0,
+                    "count": 0,
+                    "buckets": [
+                        {
+                            "le": "+Inf",
+                            "count": 0
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "seastore_op_lat": {
+                "latency": "STAT",
+                "shard": "3",
+                "value": {
+                    "sum": 0,
+                    "count": 0,
+                    "buckets": [
+                        {
+                            "le": "+Inf",
+                            "count": 0
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "seastore_op_lat": {
+                "latency": "WRITE",
+                "shard": "3",
+                "value": {
+                    "sum": 0,
+                    "count": 0,
+                    "buckets": [
+                        {
+                            "le": "+Inf",
+                            "count": 0
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "seastore_pending_transactions": {
+                "shard": "3",
+                "value": 0
+            }
+        },
+        {
+            "segment_cleaner_available_bytes": {
+                "shard": "3",
+                "value": 1941741236224
+            }
+        },
+        {
+            "segment_cleaner_available_ratio": {
+                "shard": "3",
+                "value": 0.97068569369682112
+            }
+        },
+        {
+            "segment_cleaner_closed_journal_total_bytes": {
+                "shard": "3",
+                "value": 939524096
+            }
+        },
+        {
+            "segment_cleaner_closed_journal_used_bytes": {
+                "shard": "3",
+                "value": 836141056
+            }
+        },
+        {
+            "segment_cleaner_closed_ool_total_bytes": {
+                "shard": "3",
+                "value": 55297703936
+            }
+        },
+        {
+            "segment_cleaner_closed_ool_used_bytes": {
+                "shard": "3",
+                "value": 51514441728
+            }
+        },
+        {
+            "segment_cleaner_projected_count": {
+                "shard": "3",
+                "value": 23285
+            }
+        },
+        {
+            "segment_cleaner_projected_used_bytes_sum": {
+                "shard": "3",
+                "value": 242089754624
+            }
+        },
+        {
+            "segment_cleaner_reclaim_ratio": {
+                "shard": "3",
+                "value": 0.10562152246455504
+            }
+        },
+        {
+            "segment_cleaner_reclaimed_bytes": {
+                "shard": "3",
+                "value": 0
+            }
+        },
+        {
+            "segment_cleaner_reclaimed_segment_bytes": {
+                "shard": "3",
+                "value": 0
+            }
+        },
+        {
+            "segment_cleaner_segment_size": {
+                "shard": "3",
+                "value": 67108864
+            }
+        },
+        {
+            "segment_cleaner_segment_utilization_distribution": {
+                "shard": "3",
+                "value": {
+                    "sum": 0,
+                    "count": 0,
+                    "buckets": [
+                        {
+                            "le": 0.10000000000000001,
+                            "count": 35
+                        },
+                        {
+                            "le": 0.20000000000000001,
+                            "count": 0
+                        },
+                        {
+                            "le": 0.29999999999999999,
+                            "count": 0
+                        },
+                        {
+                            "le": 0.40000000000000002,
+                            "count": 0
+                        },
+                        {
+                            "le": 0.5,
+                            "count": 0
+                        },
+                        {
+                            "le": 0.59999999999999998,
+                            "count": 0
+                        },
+                        {
+                            "le": 0.69999999999999996,
+                            "count": 0
+                        },
+                        {
+                            "le": 0.80000000000000004,
+                            "count": 1
+                        },
+                        {
+                            "le": 0.90000000000000002,
+                            "count": 63
+                        },
+                        {
+                            "le": 1,
+                            "count": 774
+                        },
+                        {
+                            "le": 1.1000000000000001,
+                            "count": 7
+                        },
+                        {
+                            "le": 1.2,
+                            "count": 28928
+                        },
+                        {
+                            "le": "+Inf",
+                            "count": 0
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "segment_cleaner_segments_closed": {
+                "shard": "3",
+                "value": 873
+            }
+        },
+        {
+            "segment_cleaner_segments_count_close_journal": {
+                "shard": "3",
+                "value": 14
+            }
+        },
+        {
+            "segment_cleaner_segments_count_close_ool": {
+                "shard": "3",
+                "value": 824
+            }
+        },
+        {
+            "segment_cleaner_segments_count_open_journal": {
+                "shard": "3",
+                "value": 15
+            }
+        },
+        {
+            "segment_cleaner_segments_count_open_ool": {
+                "shard": "3",
+                "value": 830
+            }
+        },
+        {
+            "segment_cleaner_segments_count_release_journal": {
+                "shard": "3",
+                "value": 0
+            }
+        },
+        {
+            "segment_cleaner_segments_count_release_ool": {
+                "shard": "3",
+                "value": 0
+            }
+        },
+        {
+            "segment_cleaner_segments_empty": {
+                "shard": "3",
+                "value": 28928
+            }
+        },
+        {
+            "segment_cleaner_segments_in_journal": {
+                "shard": "3",
+                "value": 3
+            }
+        },
+        {
+            "segment_cleaner_segments_number": {
+                "shard": "3",
+                "value": 29808
+            }
+        },
+        {
+            "segment_cleaner_segments_open": {
+                "shard": "3",
+                "value": 7
+            }
+        },
+        {
+            "segment_cleaner_segments_type_journal": {
+                "shard": "3",
+                "value": 20
+            }
+        },
+        {
+            "segment_cleaner_segments_type_ool": {
+                "shard": "3",
+                "value": 860
+            }
+        },
+        {
+            "segment_cleaner_total_bytes": {
+                "shard": "3",
+                "value": 2000381018112
+            }
+        },
+        {
+            "segment_cleaner_unavailable_reclaimable_bytes": {
+                "shard": "3",
+                "value": 58451820544
+            }
+        },
+        {
+            "segment_cleaner_unavailable_unreclaimable_bytes": {
+                "shard": "3",
+                "value": 187961344
+            }
+        },
+        {
+            "segment_cleaner_unavailable_unused_bytes": {
+                "shard": "3",
+                "value": 6193623040
+            }
+        },
+        {
+            "segment_cleaner_used_bytes": {
+                "shard": "3",
+                "value": 52446158848
+            }
+        },
+        {
+            "segment_manager_closed_segments": {
+                "device_id": "0",
+                "shard": "3",
+                "value": 838
+            }
+        },
+        {
+            "segment_manager_closed_segments_unused_bytes": {
+                "device_id": "0",
+                "shard": "3",
+                "value": 0
+            }
+        },
+        {
+            "segment_manager_data_read_bytes": {
+                "device_id": "0",
+                "shard": "3",
+                "value": 59232256
+            }
+        },
+        {
+            "segment_manager_data_read_num": {
+                "device_id": "0",
+                "shard": "3",
+                "value": 5310
+            }
+        },
+        {
+            "segment_manager_data_write_bytes": {
+                "device_id": "0",
+                "shard": "3",
+                "value": 52841193472
+            }
+        },
+        {
+            "segment_manager_data_write_num": {
+                "device_id": "0",
+                "shard": "3",
+                "value": 39230
+            }
+        },
+        {
+            "segment_manager_metadata_write_bytes": {
+                "device_id": "0",
+                "shard": "3",
+                "value": 55148544
+            }
+        },
+        {
+            "segment_manager_metadata_write_num": {
+                "device_id": "0",
+                "shard": "3",
+                "value": 1683
+            }
+        },
+        {
+            "segment_manager_opened_segments": {
+                "device_id": "0",
+                "shard": "3",
+                "value": 845
+            }
+        },
+        {
+            "segment_manager_released_segments": {
+                "device_id": "0",
+                "shard": "3",
+                "value": 0
+            }
+        },
+        {
+            "stall_detector_reported": {
+                "shard": "3",
+                "value": 4
+            }
+        }
+    ]
+}
