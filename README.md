@@ -1,3 +1,7 @@
+# No support
+
+I'm not in a postion where I'm able to maintain or debug issues anymore, feel free to fork if you've a use for this project
+
 # crimson-exporter
 
 Quick and dirty exporter that runs dump_metrics on all OSD asok to gather metrics for crimson-osd testing.
